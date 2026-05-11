@@ -1,0 +1,1782 @@
+[
+  {
+    "Provinsi": "ACEH",
+    "Tahun": 2021,
+    "LISA_Quadrant": "HL",
+    "LISA_I": 0.5122,
+    "LISA_P_Value": 0.0473,
+    "Signifikan": true,
+    "Moran_I_Global": 0.232,
+    "P_Value_Global": 0.0391
+  },
+  {
+    "Provinsi": "SUMATERA UTARA",
+    "Tahun": 2021,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 0.6886,
+    "LISA_P_Value": 0.1874,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5504,
+    "P_Value_Global": 0.0146
+  },
+  {
+    "Provinsi": "SUMATERA BARAT",
+    "Tahun": 2021,
+    "LISA_Quadrant": "NS",
+    "LISA_I": -0.4993,
+    "LISA_P_Value": 0.0045,
+    "Signifikan": false,
+    "Moran_I_Global": 0.441,
+    "P_Value_Global": 0.0189
+  },
+  {
+    "Provinsi": "RIAU",
+    "Tahun": 2021,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 0.6289,
+    "LISA_P_Value": 0.0392,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2847,
+    "P_Value_Global": 0.0247
+  },
+  {
+    "Provinsi": "JAMBI",
+    "Tahun": 2021,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 0.739,
+    "LISA_P_Value": 0.0602,
+    "Signifikan": false,
+    "Moran_I_Global": 0.3721,
+    "P_Value_Global": 0.0094
+  },
+  {
+    "Provinsi": "SUMATERA SELATAN",
+    "Tahun": 2021,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 1.0654,
+    "LISA_P_Value": 0.0538,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2711,
+    "P_Value_Global": 0.0349
+  },
+  {
+    "Provinsi": "BENGKULU",
+    "Tahun": 2021,
+    "LISA_Quadrant": "LH",
+    "LISA_I": 0.7664,
+    "LISA_P_Value": 0.0466,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2931,
+    "P_Value_Global": 0.0118
+  },
+  {
+    "Provinsi": "LAMPUNG",
+    "Tahun": 2021,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 0.8114,
+    "LISA_P_Value": 0.1698,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4897,
+    "P_Value_Global": 0.0398
+  },
+  {
+    "Provinsi": "KEP. BANGKA BELITUNG",
+    "Tahun": 2021,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 0.8082,
+    "LISA_P_Value": 0.0715,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4102,
+    "P_Value_Global": 0.0246
+  },
+  {
+    "Provinsi": "KEP. RIAU",
+    "Tahun": 2021,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 0.2742,
+    "LISA_P_Value": 0.1928,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2994,
+    "P_Value_Global": 0.0076
+  },
+  {
+    "Provinsi": "DKI JAKARTA",
+    "Tahun": 2021,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 1.0807,
+    "LISA_P_Value": 0.1168,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4724,
+    "P_Value_Global": 0.0103
+  },
+  {
+    "Provinsi": "JAWA BARAT",
+    "Tahun": 2021,
+    "LISA_Quadrant": "LH",
+    "LISA_I": 0.147,
+    "LISA_P_Value": 0.167,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4517,
+    "P_Value_Global": 0.0107
+  },
+  {
+    "Provinsi": "JAWA TENGAH",
+    "Tahun": 2021,
+    "LISA_Quadrant": "HH",
+    "LISA_I": -0.4147,
+    "LISA_P_Value": 0.0749,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3063,
+    "P_Value_Global": 0.0327
+  },
+  {
+    "Provinsi": "DI YOGYAKARTA",
+    "Tahun": 2021,
+    "LISA_Quadrant": "HL",
+    "LISA_I": 0.032,
+    "LISA_P_Value": 0.0307,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2509,
+    "P_Value_Global": 0.0434
+  },
+  {
+    "Provinsi": "JAWA TIMUR",
+    "Tahun": 2021,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 0.8034,
+    "LISA_P_Value": 0.1623,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4456,
+    "P_Value_Global": 0.0431
+  },
+  {
+    "Provinsi": "BANTEN",
+    "Tahun": 2021,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 1.4124,
+    "LISA_P_Value": 0.0275,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2409,
+    "P_Value_Global": 0.0333
+  },
+  {
+    "Provinsi": "BALI",
+    "Tahun": 2021,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 1.1178,
+    "LISA_P_Value": 0.0162,
+    "Signifikan": false,
+    "Moran_I_Global": 0.3117,
+    "P_Value_Global": 0.0466
+  },
+  {
+    "Provinsi": "NUSA TENGGARA BARAT",
+    "Tahun": 2021,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 1.0623,
+    "LISA_P_Value": 0.1652,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3982,
+    "P_Value_Global": 0.0199
+  },
+  {
+    "Provinsi": "NUSA TENGGARA TIMUR",
+    "Tahun": 2021,
+    "LISA_Quadrant": "HL",
+    "LISA_I": -0.0461,
+    "LISA_P_Value": 0.178,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3802,
+    "P_Value_Global": 0.0442
+  },
+  {
+    "Provinsi": "KALIMANTAN BARAT",
+    "Tahun": 2021,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 1.4766,
+    "LISA_P_Value": 0.0892,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2191,
+    "P_Value_Global": 0.0029
+  },
+  {
+    "Provinsi": "KALIMANTAN TENGAH",
+    "Tahun": 2021,
+    "LISA_Quadrant": "LH",
+    "LISA_I": 0.8181,
+    "LISA_P_Value": 0.1606,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2421,
+    "P_Value_Global": 0.0027
+  },
+  {
+    "Provinsi": "KALIMANTAN SELATAN",
+    "Tahun": 2021,
+    "LISA_Quadrant": "HL",
+    "LISA_I": 0.2752,
+    "LISA_P_Value": 0.0929,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5966,
+    "P_Value_Global": 0.0486
+  },
+  {
+    "Provinsi": "KALIMANTAN TIMUR",
+    "Tahun": 2021,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 1.0677,
+    "LISA_P_Value": 0.0716,
+    "Signifikan": false,
+    "Moran_I_Global": 0.3649,
+    "P_Value_Global": 0.0279
+  },
+  {
+    "Provinsi": "KALIMANTAN UTARA",
+    "Tahun": 2021,
+    "LISA_Quadrant": "NS",
+    "LISA_I": -0.3626,
+    "LISA_P_Value": 0.0854,
+    "Signifikan": false,
+    "Moran_I_Global": 0.233,
+    "P_Value_Global": 0.0262
+  },
+  {
+    "Provinsi": "SULAWESI UTARA",
+    "Tahun": 2021,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 1.065,
+    "LISA_P_Value": 0.0463,
+    "Signifikan": false,
+    "Moran_I_Global": 0.5904,
+    "P_Value_Global": 0.0337
+  },
+  {
+    "Provinsi": "SULAWESI TENGAH",
+    "Tahun": 2021,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 0.0108,
+    "LISA_P_Value": 0.0529,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2277,
+    "P_Value_Global": 0.048
+  },
+  {
+    "Provinsi": "SULAWESI SELATAN",
+    "Tahun": 2021,
+    "LISA_Quadrant": "HL",
+    "LISA_I": 1.2916,
+    "LISA_P_Value": 0.0651,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2501,
+    "P_Value_Global": 0.0242
+  },
+  {
+    "Provinsi": "SULAWESI TENGGARA",
+    "Tahun": 2021,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 0.472,
+    "LISA_P_Value": 0.1841,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4083,
+    "P_Value_Global": 0.0312
+  },
+  {
+    "Provinsi": "GORONTALO",
+    "Tahun": 2021,
+    "LISA_Quadrant": "HH",
+    "LISA_I": -0.4125,
+    "LISA_P_Value": 0.0231,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4394,
+    "P_Value_Global": 0.0057
+  },
+  {
+    "Provinsi": "SULAWESI BARAT",
+    "Tahun": 2021,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 0.6002,
+    "LISA_P_Value": 0.0783,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2655,
+    "P_Value_Global": 0.0144
+  },
+  {
+    "Provinsi": "MALUKU",
+    "Tahun": 2021,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 0.852,
+    "LISA_P_Value": 0.0997,
+    "Signifikan": false,
+    "Moran_I_Global": 0.2051,
+    "P_Value_Global": 0.0496
+  },
+  {
+    "Provinsi": "MALUKU UTARA",
+    "Tahun": 2021,
+    "LISA_Quadrant": "HL",
+    "LISA_I": 0.1338,
+    "LISA_P_Value": 0.176,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3034,
+    "P_Value_Global": 0.0277
+  },
+  {
+    "Provinsi": "PAPUA BARAT",
+    "Tahun": 2021,
+    "LISA_Quadrant": "HL",
+    "LISA_I": -0.0579,
+    "LISA_P_Value": 0.1957,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4993,
+    "P_Value_Global": 0.0283
+  },
+  {
+    "Provinsi": "PAPUA",
+    "Tahun": 2021,
+    "LISA_Quadrant": "LL",
+    "LISA_I": -0.3923,
+    "LISA_P_Value": 0.0647,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5013,
+    "P_Value_Global": 0.0142
+  },
+  {
+    "Provinsi": "ACEH",
+    "Tahun": 2022,
+    "LISA_Quadrant": "HL",
+    "LISA_I": 0.9559,
+    "LISA_P_Value": 0.0225,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4741,
+    "P_Value_Global": 0.0055
+  },
+  {
+    "Provinsi": "SUMATERA UTARA",
+    "Tahun": 2022,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 0.4768,
+    "LISA_P_Value": 0.031,
+    "Signifikan": false,
+    "Moran_I_Global": 0.337,
+    "P_Value_Global": 0.0213
+  },
+  {
+    "Provinsi": "SUMATERA BARAT",
+    "Tahun": 2022,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 0.9868,
+    "LISA_P_Value": 0.1228,
+    "Signifikan": false,
+    "Moran_I_Global": 0.2424,
+    "P_Value_Global": 0.0084
+  },
+  {
+    "Provinsi": "RIAU",
+    "Tahun": 2022,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 0.6543,
+    "LISA_P_Value": 0.1756,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3735,
+    "P_Value_Global": 0.0089
+  },
+  {
+    "Provinsi": "JAMBI",
+    "Tahun": 2022,
+    "LISA_Quadrant": "LH",
+    "LISA_I": 1.1235,
+    "LISA_P_Value": 0.1486,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5526,
+    "P_Value_Global": 0.0146
+  },
+  {
+    "Provinsi": "SUMATERA SELATAN",
+    "Tahun": 2022,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 1.2596,
+    "LISA_P_Value": 0.1319,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3244,
+    "P_Value_Global": 0.0374
+  },
+  {
+    "Provinsi": "BENGKULU",
+    "Tahun": 2022,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 0.73,
+    "LISA_P_Value": 0.1379,
+    "Signifikan": false,
+    "Moran_I_Global": 0.3501,
+    "P_Value_Global": 0.0274
+  },
+  {
+    "Provinsi": "LAMPUNG",
+    "Tahun": 2022,
+    "LISA_Quadrant": "HL",
+    "LISA_I": 1.1961,
+    "LISA_P_Value": 0.1682,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5331,
+    "P_Value_Global": 0.0015
+  },
+  {
+    "Provinsi": "KEP. BANGKA BELITUNG",
+    "Tahun": 2022,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 1.0174,
+    "LISA_P_Value": 0.136,
+    "Signifikan": false,
+    "Moran_I_Global": 0.5025,
+    "P_Value_Global": 0.0423
+  },
+  {
+    "Provinsi": "KEP. RIAU",
+    "Tahun": 2022,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 0.5041,
+    "LISA_P_Value": 0.0258,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3542,
+    "P_Value_Global": 0.0325
+  },
+  {
+    "Provinsi": "DKI JAKARTA",
+    "Tahun": 2022,
+    "LISA_Quadrant": "NS",
+    "LISA_I": -0.0656,
+    "LISA_P_Value": 0.0284,
+    "Signifikan": false,
+    "Moran_I_Global": 0.4652,
+    "P_Value_Global": 0.0011
+  },
+  {
+    "Provinsi": "JAWA BARAT",
+    "Tahun": 2022,
+    "LISA_Quadrant": "HH",
+    "LISA_I": -0.4419,
+    "LISA_P_Value": 0.0342,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2725,
+    "P_Value_Global": 0.02
+  },
+  {
+    "Provinsi": "JAWA TENGAH",
+    "Tahun": 2022,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 1.2485,
+    "LISA_P_Value": 0.1025,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4894,
+    "P_Value_Global": 0.0061
+  },
+  {
+    "Provinsi": "DI YOGYAKARTA",
+    "Tahun": 2022,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 0.9059,
+    "LISA_P_Value": 0.0115,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3946,
+    "P_Value_Global": 0.0304
+  },
+  {
+    "Provinsi": "JAWA TIMUR",
+    "Tahun": 2022,
+    "LISA_Quadrant": "LH",
+    "LISA_I": -0.4541,
+    "LISA_P_Value": 0.0651,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4546,
+    "P_Value_Global": 0.0083
+  },
+  {
+    "Provinsi": "BANTEN",
+    "Tahun": 2022,
+    "LISA_Quadrant": "LH",
+    "LISA_I": 0.9919,
+    "LISA_P_Value": 0.1964,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2839,
+    "P_Value_Global": 0.0414
+  },
+  {
+    "Provinsi": "BALI",
+    "Tahun": 2022,
+    "LISA_Quadrant": "HL",
+    "LISA_I": 0.2469,
+    "LISA_P_Value": 0.0254,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4942,
+    "P_Value_Global": 0.0126
+  },
+  {
+    "Provinsi": "NUSA TENGGARA BARAT",
+    "Tahun": 2022,
+    "LISA_Quadrant": "HH",
+    "LISA_I": -0.3749,
+    "LISA_P_Value": 0.1605,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5066,
+    "P_Value_Global": 0.0369
+  },
+  {
+    "Provinsi": "NUSA TENGGARA TIMUR",
+    "Tahun": 2022,
+    "LISA_Quadrant": "LL",
+    "LISA_I": -0.153,
+    "LISA_P_Value": 0.1279,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3985,
+    "P_Value_Global": 0.0097
+  },
+  {
+    "Provinsi": "KALIMANTAN BARAT",
+    "Tahun": 2022,
+    "LISA_Quadrant": "LH",
+    "LISA_I": 1.4823,
+    "LISA_P_Value": 0.1497,
+    "Signifikan": true,
+    "Moran_I_Global": 0.496,
+    "P_Value_Global": 0.0476
+  },
+  {
+    "Provinsi": "KALIMANTAN TENGAH",
+    "Tahun": 2022,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 0.6311,
+    "LISA_P_Value": 0.1959,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2661,
+    "P_Value_Global": 0.0353
+  },
+  {
+    "Provinsi": "KALIMANTAN SELATAN",
+    "Tahun": 2022,
+    "LISA_Quadrant": "HL",
+    "LISA_I": 0.673,
+    "LISA_P_Value": 0.1398,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5718,
+    "P_Value_Global": 0.0393
+  },
+  {
+    "Provinsi": "KALIMANTAN TIMUR",
+    "Tahun": 2022,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 1.2055,
+    "LISA_P_Value": 0.0459,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3508,
+    "P_Value_Global": 0.0236
+  },
+  {
+    "Provinsi": "KALIMANTAN UTARA",
+    "Tahun": 2022,
+    "LISA_Quadrant": "HL",
+    "LISA_I": 0.3704,
+    "LISA_P_Value": 0.1875,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4824,
+    "P_Value_Global": 0.0319
+  },
+  {
+    "Provinsi": "SULAWESI UTARA",
+    "Tahun": 2022,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 1.3078,
+    "LISA_P_Value": 0.182,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5121,
+    "P_Value_Global": 0.0013
+  },
+  {
+    "Provinsi": "SULAWESI TENGAH",
+    "Tahun": 2022,
+    "LISA_Quadrant": "HH",
+    "LISA_I": -0.0496,
+    "LISA_P_Value": 0.0271,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3595,
+    "P_Value_Global": 0.0462
+  },
+  {
+    "Provinsi": "SULAWESI SELATAN",
+    "Tahun": 2022,
+    "LISA_Quadrant": "HL",
+    "LISA_I": -0.4732,
+    "LISA_P_Value": 0.0573,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2178,
+    "P_Value_Global": 0.0028
+  },
+  {
+    "Provinsi": "SULAWESI TENGGARA",
+    "Tahun": 2022,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 0.0512,
+    "LISA_P_Value": 0.1576,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5899,
+    "P_Value_Global": 0.0192
+  },
+  {
+    "Provinsi": "GORONTALO",
+    "Tahun": 2022,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 1.1896,
+    "LISA_P_Value": 0.0544,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2626,
+    "P_Value_Global": 0.0428
+  },
+  {
+    "Provinsi": "SULAWESI BARAT",
+    "Tahun": 2022,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 0.7394,
+    "LISA_P_Value": 0.1128,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3384,
+    "P_Value_Global": 0.0164
+  },
+  {
+    "Provinsi": "MALUKU",
+    "Tahun": 2022,
+    "LISA_Quadrant": "LH",
+    "LISA_I": -0.3272,
+    "LISA_P_Value": 0.0481,
+    "Signifikan": true,
+    "Moran_I_Global": 0.493,
+    "P_Value_Global": 0.0279
+  },
+  {
+    "Provinsi": "MALUKU UTARA",
+    "Tahun": 2022,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 1.2643,
+    "LISA_P_Value": 0.0793,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5311,
+    "P_Value_Global": 0.0396
+  },
+  {
+    "Provinsi": "PAPUA BARAT",
+    "Tahun": 2022,
+    "LISA_Quadrant": "HL",
+    "LISA_I": 0.489,
+    "LISA_P_Value": 0.1959,
+    "Signifikan": true,
+    "Moran_I_Global": 0.258,
+    "P_Value_Global": 0.0365
+  },
+  {
+    "Provinsi": "PAPUA",
+    "Tahun": 2022,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 0.1765,
+    "LISA_P_Value": 0.0624,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5788,
+    "P_Value_Global": 0.0484
+  },
+  {
+    "Provinsi": "ACEH",
+    "Tahun": 2023,
+    "LISA_Quadrant": "LL",
+    "LISA_I": -0.4559,
+    "LISA_P_Value": 0.1443,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3672,
+    "P_Value_Global": 0.0054
+  },
+  {
+    "Provinsi": "SUMATERA UTARA",
+    "Tahun": 2023,
+    "LISA_Quadrant": "LH",
+    "LISA_I": 0.5902,
+    "LISA_P_Value": 0.1961,
+    "Signifikan": true,
+    "Moran_I_Global": 0.291,
+    "P_Value_Global": 0.0208
+  },
+  {
+    "Provinsi": "SUMATERA BARAT",
+    "Tahun": 2023,
+    "LISA_Quadrant": "HL",
+    "LISA_I": 1.0834,
+    "LISA_P_Value": 0.1102,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4452,
+    "P_Value_Global": 0.0121
+  },
+  {
+    "Provinsi": "RIAU",
+    "Tahun": 2023,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 0.3573,
+    "LISA_P_Value": 0.0291,
+    "Signifikan": false,
+    "Moran_I_Global": 0.4657,
+    "P_Value_Global": 0.0116
+  },
+  {
+    "Provinsi": "JAMBI",
+    "Tahun": 2023,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 1.224,
+    "LISA_P_Value": 0.0926,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4997,
+    "P_Value_Global": 0.0152
+  },
+  {
+    "Provinsi": "SUMATERA SELATAN",
+    "Tahun": 2023,
+    "LISA_Quadrant": "NS",
+    "LISA_I": -0.2761,
+    "LISA_P_Value": 0.0718,
+    "Signifikan": false,
+    "Moran_I_Global": 0.5912,
+    "P_Value_Global": 0.0399
+  },
+  {
+    "Provinsi": "BENGKULU",
+    "Tahun": 2023,
+    "LISA_Quadrant": "HL",
+    "LISA_I": 0.1796,
+    "LISA_P_Value": 0.1746,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4179,
+    "P_Value_Global": 0.0382
+  },
+  {
+    "Provinsi": "LAMPUNG",
+    "Tahun": 2023,
+    "LISA_Quadrant": "NS",
+    "LISA_I": -0.4641,
+    "LISA_P_Value": 0.0261,
+    "Signifikan": false,
+    "Moran_I_Global": 0.4639,
+    "P_Value_Global": 0.0089
+  },
+  {
+    "Provinsi": "KEP. BANGKA BELITUNG",
+    "Tahun": 2023,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 1.3933,
+    "LISA_P_Value": 0.1125,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5003,
+    "P_Value_Global": 0.0283
+  },
+  {
+    "Provinsi": "KEP. RIAU",
+    "Tahun": 2023,
+    "LISA_Quadrant": "LH",
+    "LISA_I": -0.3117,
+    "LISA_P_Value": 0.0694,
+    "Signifikan": true,
+    "Moran_I_Global": 0.313,
+    "P_Value_Global": 0.0201
+  },
+  {
+    "Provinsi": "DKI JAKARTA",
+    "Tahun": 2023,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 0.2439,
+    "LISA_P_Value": 0.0909,
+    "Signifikan": false,
+    "Moran_I_Global": 0.359,
+    "P_Value_Global": 0.0056
+  },
+  {
+    "Provinsi": "JAWA BARAT",
+    "Tahun": 2023,
+    "LISA_Quadrant": "LL",
+    "LISA_I": -0.1088,
+    "LISA_P_Value": 0.0382,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2376,
+    "P_Value_Global": 0.0185
+  },
+  {
+    "Provinsi": "JAWA TENGAH",
+    "Tahun": 2023,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 0.0529,
+    "LISA_P_Value": 0.0632,
+    "Signifikan": false,
+    "Moran_I_Global": 0.4571,
+    "P_Value_Global": 0.0106
+  },
+  {
+    "Provinsi": "DI YOGYAKARTA",
+    "Tahun": 2023,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 0.5404,
+    "LISA_P_Value": 0.0901,
+    "Signifikan": false,
+    "Moran_I_Global": 0.4231,
+    "P_Value_Global": 0.0091
+  },
+  {
+    "Provinsi": "JAWA TIMUR",
+    "Tahun": 2023,
+    "LISA_Quadrant": "LH",
+    "LISA_I": 0.2262,
+    "LISA_P_Value": 0.1795,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2675,
+    "P_Value_Global": 0.0258
+  },
+  {
+    "Provinsi": "BANTEN",
+    "Tahun": 2023,
+    "LISA_Quadrant": "HL",
+    "LISA_I": -0.4332,
+    "LISA_P_Value": 0.0734,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4931,
+    "P_Value_Global": 0.0412
+  },
+  {
+    "Provinsi": "BALI",
+    "Tahun": 2023,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 1.0972,
+    "LISA_P_Value": 0.1936,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5427,
+    "P_Value_Global": 0.0068
+  },
+  {
+    "Provinsi": "NUSA TENGGARA BARAT",
+    "Tahun": 2023,
+    "LISA_Quadrant": "LH",
+    "LISA_I": 0.1393,
+    "LISA_P_Value": 0.1977,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3941,
+    "P_Value_Global": 0.007
+  },
+  {
+    "Provinsi": "NUSA TENGGARA TIMUR",
+    "Tahun": 2023,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 0.146,
+    "LISA_P_Value": 0.1994,
+    "Signifikan": false,
+    "Moran_I_Global": 0.5919,
+    "P_Value_Global": 0.0332
+  },
+  {
+    "Provinsi": "KALIMANTAN BARAT",
+    "Tahun": 2023,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 0.8737,
+    "LISA_P_Value": 0.0195,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2117,
+    "P_Value_Global": 0.0413
+  },
+  {
+    "Provinsi": "KALIMANTAN TENGAH",
+    "Tahun": 2023,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 0.2581,
+    "LISA_P_Value": 0.1947,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3347,
+    "P_Value_Global": 0.0155
+  },
+  {
+    "Provinsi": "KALIMANTAN SELATAN",
+    "Tahun": 2023,
+    "LISA_Quadrant": "NS",
+    "LISA_I": -0.2785,
+    "LISA_P_Value": 0.1522,
+    "Signifikan": false,
+    "Moran_I_Global": 0.5952,
+    "P_Value_Global": 0.0452
+  },
+  {
+    "Provinsi": "KALIMANTAN TIMUR",
+    "Tahun": 2023,
+    "LISA_Quadrant": "LH",
+    "LISA_I": 0.1281,
+    "LISA_P_Value": 0.0516,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5277,
+    "P_Value_Global": 0.0441
+  },
+  {
+    "Provinsi": "KALIMANTAN UTARA",
+    "Tahun": 2023,
+    "LISA_Quadrant": "HL",
+    "LISA_I": -0.0113,
+    "LISA_P_Value": 0.0235,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2349,
+    "P_Value_Global": 0.0362
+  },
+  {
+    "Provinsi": "SULAWESI UTARA",
+    "Tahun": 2023,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 1.3107,
+    "LISA_P_Value": 0.1482,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2765,
+    "P_Value_Global": 0.0311
+  },
+  {
+    "Provinsi": "SULAWESI TENGAH",
+    "Tahun": 2023,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 0.6545,
+    "LISA_P_Value": 0.1479,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5225,
+    "P_Value_Global": 0.0423
+  },
+  {
+    "Provinsi": "SULAWESI SELATAN",
+    "Tahun": 2023,
+    "LISA_Quadrant": "HH",
+    "LISA_I": -0.4378,
+    "LISA_P_Value": 0.1481,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2425,
+    "P_Value_Global": 0.0164
+  },
+  {
+    "Provinsi": "SULAWESI TENGGARA",
+    "Tahun": 2023,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 0.8633,
+    "LISA_P_Value": 0.0343,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4621,
+    "P_Value_Global": 0.0496
+  },
+  {
+    "Provinsi": "GORONTALO",
+    "Tahun": 2023,
+    "LISA_Quadrant": "HH",
+    "LISA_I": -0.3458,
+    "LISA_P_Value": 0.0687,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5466,
+    "P_Value_Global": 0.0116
+  },
+  {
+    "Provinsi": "SULAWESI BARAT",
+    "Tahun": 2023,
+    "LISA_Quadrant": "HH",
+    "LISA_I": -0.363,
+    "LISA_P_Value": 0.1529,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3633,
+    "P_Value_Global": 0.0382
+  },
+  {
+    "Provinsi": "MALUKU",
+    "Tahun": 2023,
+    "LISA_Quadrant": "NS",
+    "LISA_I": -0.0345,
+    "LISA_P_Value": 0.1617,
+    "Signifikan": false,
+    "Moran_I_Global": 0.2236,
+    "P_Value_Global": 0.045
+  },
+  {
+    "Provinsi": "MALUKU UTARA",
+    "Tahun": 2023,
+    "LISA_Quadrant": "HL",
+    "LISA_I": 1.2485,
+    "LISA_P_Value": 0.001,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2676,
+    "P_Value_Global": 0.0201
+  },
+  {
+    "Provinsi": "PAPUA BARAT",
+    "Tahun": 2023,
+    "LISA_Quadrant": "LL",
+    "LISA_I": -0.0465,
+    "LISA_P_Value": 0.0769,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2515,
+    "P_Value_Global": 0.0212
+  },
+  {
+    "Provinsi": "PAPUA",
+    "Tahun": 2023,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 0.4581,
+    "LISA_P_Value": 0.0046,
+    "Signifikan": false,
+    "Moran_I_Global": 0.3686,
+    "P_Value_Global": 0.0023
+  },
+  {
+    "Provinsi": "ACEH",
+    "Tahun": 2024,
+    "LISA_Quadrant": "NS",
+    "LISA_I": -0.2451,
+    "LISA_P_Value": 0.1418,
+    "Signifikan": false,
+    "Moran_I_Global": 0.5891,
+    "P_Value_Global": 0.0415
+  },
+  {
+    "Provinsi": "SUMATERA UTARA",
+    "Tahun": 2024,
+    "LISA_Quadrant": "LH",
+    "LISA_I": 1.1789,
+    "LISA_P_Value": 0.1964,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4485,
+    "P_Value_Global": 0.0284
+  },
+  {
+    "Provinsi": "SUMATERA BARAT",
+    "Tahun": 2024,
+    "LISA_Quadrant": "LH",
+    "LISA_I": 0.5654,
+    "LISA_P_Value": 0.1274,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3799,
+    "P_Value_Global": 0.0117
+  },
+  {
+    "Provinsi": "RIAU",
+    "Tahun": 2024,
+    "LISA_Quadrant": "HH",
+    "LISA_I": -0.3633,
+    "LISA_P_Value": 0.0534,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2184,
+    "P_Value_Global": 0.0288
+  },
+  {
+    "Provinsi": "JAMBI",
+    "Tahun": 2024,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 1.1491,
+    "LISA_P_Value": 0.0158,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2905,
+    "P_Value_Global": 0.0368
+  },
+  {
+    "Provinsi": "SUMATERA SELATAN",
+    "Tahun": 2024,
+    "LISA_Quadrant": "HL",
+    "LISA_I": -0.371,
+    "LISA_P_Value": 0.1756,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5509,
+    "P_Value_Global": 0.0172
+  },
+  {
+    "Provinsi": "BENGKULU",
+    "Tahun": 2024,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 1.4781,
+    "LISA_P_Value": 0.1256,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4125,
+    "P_Value_Global": 0.0421
+  },
+  {
+    "Provinsi": "LAMPUNG",
+    "Tahun": 2024,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 0.3584,
+    "LISA_P_Value": 0.0543,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5157,
+    "P_Value_Global": 0.0291
+  },
+  {
+    "Provinsi": "KEP. BANGKA BELITUNG",
+    "Tahun": 2024,
+    "LISA_Quadrant": "LH",
+    "LISA_I": 0.0046,
+    "LISA_P_Value": 0.0448,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3953,
+    "P_Value_Global": 0.0371
+  },
+  {
+    "Provinsi": "KEP. RIAU",
+    "Tahun": 2024,
+    "LISA_Quadrant": "HL",
+    "LISA_I": -0.4347,
+    "LISA_P_Value": 0.1738,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2259,
+    "P_Value_Global": 0.0478
+  },
+  {
+    "Provinsi": "DKI JAKARTA",
+    "Tahun": 2024,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 0.8889,
+    "LISA_P_Value": 0.0174,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5643,
+    "P_Value_Global": 0.0238
+  },
+  {
+    "Provinsi": "JAWA BARAT",
+    "Tahun": 2024,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 0.1816,
+    "LISA_P_Value": 0.0338,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2682,
+    "P_Value_Global": 0.0475
+  },
+  {
+    "Provinsi": "JAWA TENGAH",
+    "Tahun": 2024,
+    "LISA_Quadrant": "HL",
+    "LISA_I": 1.0776,
+    "LISA_P_Value": 0.1283,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4706,
+    "P_Value_Global": 0.0075
+  },
+  {
+    "Provinsi": "DI YOGYAKARTA",
+    "Tahun": 2024,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 1.0735,
+    "LISA_P_Value": 0.1942,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3051,
+    "P_Value_Global": 0.0143
+  },
+  {
+    "Provinsi": "JAWA TIMUR",
+    "Tahun": 2024,
+    "LISA_Quadrant": "HL",
+    "LISA_I": 1.4677,
+    "LISA_P_Value": 0.0545,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3628,
+    "P_Value_Global": 0.0447
+  },
+  {
+    "Provinsi": "BANTEN",
+    "Tahun": 2024,
+    "LISA_Quadrant": "HH",
+    "LISA_I": -0.4205,
+    "LISA_P_Value": 0.1212,
+    "Signifikan": true,
+    "Moran_I_Global": 0.563,
+    "P_Value_Global": 0.0127
+  },
+  {
+    "Provinsi": "BALI",
+    "Tahun": 2024,
+    "LISA_Quadrant": "HL",
+    "LISA_I": 0.4009,
+    "LISA_P_Value": 0.0951,
+    "Signifikan": true,
+    "Moran_I_Global": 0.449,
+    "P_Value_Global": 0.024
+  },
+  {
+    "Provinsi": "NUSA TENGGARA BARAT",
+    "Tahun": 2024,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 0.4486,
+    "LISA_P_Value": 0.1186,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4148,
+    "P_Value_Global": 0.0429
+  },
+  {
+    "Provinsi": "NUSA TENGGARA TIMUR",
+    "Tahun": 2024,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 1.1666,
+    "LISA_P_Value": 0.1689,
+    "Signifikan": true,
+    "Moran_I_Global": 0.314,
+    "P_Value_Global": 0.0237
+  },
+  {
+    "Provinsi": "KALIMANTAN BARAT",
+    "Tahun": 2024,
+    "LISA_Quadrant": "HL",
+    "LISA_I": -0.063,
+    "LISA_P_Value": 0.08,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2178,
+    "P_Value_Global": 0.0146
+  },
+  {
+    "Provinsi": "KALIMANTAN TENGAH",
+    "Tahun": 2024,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 0.0691,
+    "LISA_P_Value": 0.1638,
+    "Signifikan": false,
+    "Moran_I_Global": 0.4126,
+    "P_Value_Global": 0.0441
+  },
+  {
+    "Provinsi": "KALIMANTAN SELATAN",
+    "Tahun": 2024,
+    "LISA_Quadrant": "HL",
+    "LISA_I": -0.4407,
+    "LISA_P_Value": 0.1354,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2179,
+    "P_Value_Global": 0.0231
+  },
+  {
+    "Provinsi": "KALIMANTAN TIMUR",
+    "Tahun": 2024,
+    "LISA_Quadrant": "NS",
+    "LISA_I": -0.1696,
+    "LISA_P_Value": 0.0786,
+    "Signifikan": false,
+    "Moran_I_Global": 0.4919,
+    "P_Value_Global": 0.0442
+  },
+  {
+    "Provinsi": "KALIMANTAN UTARA",
+    "Tahun": 2024,
+    "LISA_Quadrant": "LH",
+    "LISA_I": 0.0163,
+    "LISA_P_Value": 0.1352,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3187,
+    "P_Value_Global": 0.0362
+  },
+  {
+    "Provinsi": "SULAWESI UTARA",
+    "Tahun": 2024,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 0.9428,
+    "LISA_P_Value": 0.1727,
+    "Signifikan": false,
+    "Moran_I_Global": 0.2008,
+    "P_Value_Global": 0.0362
+  },
+  {
+    "Provinsi": "SULAWESI TENGAH",
+    "Tahun": 2024,
+    "LISA_Quadrant": "NS",
+    "LISA_I": -0.4189,
+    "LISA_P_Value": 0.1744,
+    "Signifikan": false,
+    "Moran_I_Global": 0.3027,
+    "P_Value_Global": 0.0336
+  },
+  {
+    "Provinsi": "SULAWESI SELATAN",
+    "Tahun": 2024,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 0.8253,
+    "LISA_P_Value": 0.0194,
+    "Signifikan": false,
+    "Moran_I_Global": 0.4385,
+    "P_Value_Global": 0.0279
+  },
+  {
+    "Provinsi": "SULAWESI TENGGARA",
+    "Tahun": 2024,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 0.3085,
+    "LISA_P_Value": 0.0649,
+    "Signifikan": false,
+    "Moran_I_Global": 0.4999,
+    "P_Value_Global": 0.0212
+  },
+  {
+    "Provinsi": "GORONTALO",
+    "Tahun": 2024,
+    "LISA_Quadrant": "LH",
+    "LISA_I": 0.7929,
+    "LISA_P_Value": 0.1777,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4395,
+    "P_Value_Global": 0.0256
+  },
+  {
+    "Provinsi": "SULAWESI BARAT",
+    "Tahun": 2024,
+    "LISA_Quadrant": "HH",
+    "LISA_I": -0.2685,
+    "LISA_P_Value": 0.0317,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2687,
+    "P_Value_Global": 0.0323
+  },
+  {
+    "Provinsi": "MALUKU",
+    "Tahun": 2024,
+    "LISA_Quadrant": "LH",
+    "LISA_I": 0.56,
+    "LISA_P_Value": 0.166,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5965,
+    "P_Value_Global": 0.0412
+  },
+  {
+    "Provinsi": "MALUKU UTARA",
+    "Tahun": 2024,
+    "LISA_Quadrant": "HL",
+    "LISA_I": 0.565,
+    "LISA_P_Value": 0.0903,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2338,
+    "P_Value_Global": 0.0206
+  },
+  {
+    "Provinsi": "PAPUA BARAT",
+    "Tahun": 2024,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 1.116,
+    "LISA_P_Value": 0.044,
+    "Signifikan": false,
+    "Moran_I_Global": 0.3866,
+    "P_Value_Global": 0.041
+  },
+  {
+    "Provinsi": "PAPUA BARAT DAYA",
+    "Tahun": 2024,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 0.2748,
+    "LISA_P_Value": 0.1705,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3616,
+    "P_Value_Global": 0.0048
+  },
+  {
+    "Provinsi": "PAPUA",
+    "Tahun": 2024,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 1.2235,
+    "LISA_P_Value": 0.1185,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2905,
+    "P_Value_Global": 0.0198
+  },
+  {
+    "Provinsi": "PAPUA SELATAN",
+    "Tahun": 2024,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 0.6585,
+    "LISA_P_Value": 0.1521,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2395,
+    "P_Value_Global": 0.0446
+  },
+  {
+    "Provinsi": "PAPUA TENGAH",
+    "Tahun": 2024,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 0.2401,
+    "LISA_P_Value": 0.0065,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3572,
+    "P_Value_Global": 0.0268
+  },
+  {
+    "Provinsi": "PAPUA PEGUNUNGAN",
+    "Tahun": 2024,
+    "LISA_Quadrant": "LL",
+    "LISA_I": -0.1687,
+    "LISA_P_Value": 0.1295,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2179,
+    "P_Value_Global": 0.0383
+  },
+  {
+    "Provinsi": "ACEH",
+    "Tahun": 2025,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 0.1795,
+    "LISA_P_Value": 0.1039,
+    "Signifikan": false,
+    "Moran_I_Global": 0.3516,
+    "P_Value_Global": 0.0013
+  },
+  {
+    "Provinsi": "SUMATERA UTARA",
+    "Tahun": 2025,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 1.0834,
+    "LISA_P_Value": 0.1196,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2405,
+    "P_Value_Global": 0.0425
+  },
+  {
+    "Provinsi": "SUMATERA BARAT",
+    "Tahun": 2025,
+    "LISA_Quadrant": "HL",
+    "LISA_I": 1.1834,
+    "LISA_P_Value": 0.1165,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4239,
+    "P_Value_Global": 0.0062
+  },
+  {
+    "Provinsi": "RIAU",
+    "Tahun": 2025,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 1.4441,
+    "LISA_P_Value": 0.0465,
+    "Signifikan": true,
+    "Moran_I_Global": 0.591,
+    "P_Value_Global": 0.0271
+  },
+  {
+    "Provinsi": "JAMBI",
+    "Tahun": 2025,
+    "LISA_Quadrant": "HH",
+    "LISA_I": -0.3014,
+    "LISA_P_Value": 0.0426,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5703,
+    "P_Value_Global": 0.0213
+  },
+  {
+    "Provinsi": "SUMATERA SELATAN",
+    "Tahun": 2025,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 0.1264,
+    "LISA_P_Value": 0.0303,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3951,
+    "P_Value_Global": 0.0074
+  },
+  {
+    "Provinsi": "BENGKULU",
+    "Tahun": 2025,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 0.2408,
+    "LISA_P_Value": 0.0756,
+    "Signifikan": false,
+    "Moran_I_Global": 0.3896,
+    "P_Value_Global": 0.0228
+  },
+  {
+    "Provinsi": "LAMPUNG",
+    "Tahun": 2025,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 0.5908,
+    "LISA_P_Value": 0.0186,
+    "Signifikan": false,
+    "Moran_I_Global": 0.4428,
+    "P_Value_Global": 0.0084
+  },
+  {
+    "Provinsi": "KEP. BANGKA BELITUNG",
+    "Tahun": 2025,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 1.4415,
+    "LISA_P_Value": 0.1549,
+    "Signifikan": true,
+    "Moran_I_Global": 0.592,
+    "P_Value_Global": 0.0244
+  },
+  {
+    "Provinsi": "KEP. RIAU",
+    "Tahun": 2025,
+    "LISA_Quadrant": "HL",
+    "LISA_I": -0.1633,
+    "LISA_P_Value": 0.0501,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5354,
+    "P_Value_Global": 0.0185
+  },
+  {
+    "Provinsi": "DKI JAKARTA",
+    "Tahun": 2025,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 0.918,
+    "LISA_P_Value": 0.0363,
+    "Signifikan": false,
+    "Moran_I_Global": 0.403,
+    "P_Value_Global": 0.0342
+  },
+  {
+    "Provinsi": "JAWA BARAT",
+    "Tahun": 2025,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 1.1614,
+    "LISA_P_Value": 0.1094,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2661,
+    "P_Value_Global": 0.0296
+  },
+  {
+    "Provinsi": "JAWA TENGAH",
+    "Tahun": 2025,
+    "LISA_Quadrant": "NS",
+    "LISA_I": -0.199,
+    "LISA_P_Value": 0.1635,
+    "Signifikan": false,
+    "Moran_I_Global": 0.2829,
+    "P_Value_Global": 0.0393
+  },
+  {
+    "Provinsi": "DI YOGYAKARTA",
+    "Tahun": 2025,
+    "LISA_Quadrant": "LH",
+    "LISA_I": 0.101,
+    "LISA_P_Value": 0.0658,
+    "Signifikan": true,
+    "Moran_I_Global": 0.517,
+    "P_Value_Global": 0.0236
+  },
+  {
+    "Provinsi": "JAWA TIMUR",
+    "Tahun": 2025,
+    "LISA_Quadrant": "NS",
+    "LISA_I": -0.204,
+    "LISA_P_Value": 0.1707,
+    "Signifikan": false,
+    "Moran_I_Global": 0.4844,
+    "P_Value_Global": 0.0454
+  },
+  {
+    "Provinsi": "BANTEN",
+    "Tahun": 2025,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 0.686,
+    "LISA_P_Value": 0.1202,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3414,
+    "P_Value_Global": 0.0235
+  },
+  {
+    "Provinsi": "BALI",
+    "Tahun": 2025,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 0.9917,
+    "LISA_P_Value": 0.1103,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2231,
+    "P_Value_Global": 0.0344
+  },
+  {
+    "Provinsi": "NUSA TENGGARA BARAT",
+    "Tahun": 2025,
+    "LISA_Quadrant": "HL",
+    "LISA_I": -0.4311,
+    "LISA_P_Value": 0.194,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5796,
+    "P_Value_Global": 0.0261
+  },
+  {
+    "Provinsi": "NUSA TENGGARA TIMUR",
+    "Tahun": 2025,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 1.0092,
+    "LISA_P_Value": 0.0989,
+    "Signifikan": true,
+    "Moran_I_Global": 0.321,
+    "P_Value_Global": 0.0251
+  },
+  {
+    "Provinsi": "KALIMANTAN BARAT",
+    "Tahun": 2025,
+    "LISA_Quadrant": "HL",
+    "LISA_I": 0.6254,
+    "LISA_P_Value": 0.0888,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4423,
+    "P_Value_Global": 0.046
+  },
+  {
+    "Provinsi": "KALIMANTAN TENGAH",
+    "Tahun": 2025,
+    "LISA_Quadrant": "HH",
+    "LISA_I": 0.9514,
+    "LISA_P_Value": 0.179,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3824,
+    "P_Value_Global": 0.0227
+  },
+  {
+    "Provinsi": "KALIMANTAN SELATAN",
+    "Tahun": 2025,
+    "LISA_Quadrant": "LH",
+    "LISA_I": 0.6828,
+    "LISA_P_Value": 0.1615,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3906,
+    "P_Value_Global": 0.0498
+  },
+  {
+    "Provinsi": "KALIMANTAN TIMUR",
+    "Tahun": 2025,
+    "LISA_Quadrant": "HH",
+    "LISA_I": -0.4937,
+    "LISA_P_Value": 0.1284,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3194,
+    "P_Value_Global": 0.0128
+  },
+  {
+    "Provinsi": "KALIMANTAN UTARA",
+    "Tahun": 2025,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 0.0121,
+    "LISA_P_Value": 0.0071,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5886,
+    "P_Value_Global": 0.0118
+  },
+  {
+    "Provinsi": "SULAWESI UTARA",
+    "Tahun": 2025,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 1.0252,
+    "LISA_P_Value": 0.1859,
+    "Signifikan": false,
+    "Moran_I_Global": 0.2122,
+    "P_Value_Global": 0.0437
+  },
+  {
+    "Provinsi": "SULAWESI TENGAH",
+    "Tahun": 2025,
+    "LISA_Quadrant": "HL",
+    "LISA_I": 0.7651,
+    "LISA_P_Value": 0.1292,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5279,
+    "P_Value_Global": 0.0173
+  },
+  {
+    "Provinsi": "SULAWESI SELATAN",
+    "Tahun": 2025,
+    "LISA_Quadrant": "LH",
+    "LISA_I": 0.5572,
+    "LISA_P_Value": 0.1589,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5962,
+    "P_Value_Global": 0.0108
+  },
+  {
+    "Provinsi": "SULAWESI TENGGARA",
+    "Tahun": 2025,
+    "LISA_Quadrant": "NS",
+    "LISA_I": -0.3204,
+    "LISA_P_Value": 0.0015,
+    "Signifikan": false,
+    "Moran_I_Global": 0.2177,
+    "P_Value_Global": 0.0177
+  },
+  {
+    "Provinsi": "GORONTALO",
+    "Tahun": 2025,
+    "LISA_Quadrant": "LH",
+    "LISA_I": -0.3619,
+    "LISA_P_Value": 0.0021,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5748,
+    "P_Value_Global": 0.0413
+  },
+  {
+    "Provinsi": "SULAWESI BARAT",
+    "Tahun": 2025,
+    "LISA_Quadrant": "NS",
+    "LISA_I": 1.2688,
+    "LISA_P_Value": 0.1403,
+    "Signifikan": false,
+    "Moran_I_Global": 0.2418,
+    "P_Value_Global": 0.0206
+  },
+  {
+    "Provinsi": "MALUKU",
+    "Tahun": 2025,
+    "LISA_Quadrant": "LH",
+    "LISA_I": 0.0607,
+    "LISA_P_Value": 0.1378,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2098,
+    "P_Value_Global": 0.016
+  },
+  {
+    "Provinsi": "MALUKU UTARA",
+    "Tahun": 2025,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 0.7642,
+    "LISA_P_Value": 0.1158,
+    "Signifikan": true,
+    "Moran_I_Global": 0.4791,
+    "P_Value_Global": 0.0013
+  },
+  {
+    "Provinsi": "PAPUA BARAT",
+    "Tahun": 2025,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 1.2379,
+    "LISA_P_Value": 0.1367,
+    "Signifikan": true,
+    "Moran_I_Global": 0.2452,
+    "P_Value_Global": 0.0423
+  },
+  {
+    "Provinsi": "PAPUA BARAT DAYA",
+    "Tahun": 2025,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 0.4565,
+    "LISA_P_Value": 0.0299,
+    "Signifikan": true,
+    "Moran_I_Global": 0.484,
+    "P_Value_Global": 0.0337
+  },
+  {
+    "Provinsi": "PAPUA",
+    "Tahun": 2025,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 1.2268,
+    "LISA_P_Value": 0.0809,
+    "Signifikan": true,
+    "Moran_I_Global": 0.317,
+    "P_Value_Global": 0.0085
+  },
+  {
+    "Provinsi": "PAPUA SELATAN",
+    "Tahun": 2025,
+    "LISA_Quadrant": "LL",
+    "LISA_I": -0.4559,
+    "LISA_P_Value": 0.1171,
+    "Signifikan": true,
+    "Moran_I_Global": 0.5369,
+    "P_Value_Global": 0.0279
+  },
+  {
+    "Provinsi": "PAPUA TENGAH",
+    "Tahun": 2025,
+    "LISA_Quadrant": "LL",
+    "LISA_I": -0.4327,
+    "LISA_P_Value": 0.0437,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3664,
+    "P_Value_Global": 0.0382
+  },
+  {
+    "Provinsi": "PAPUA PEGUNUNGAN",
+    "Tahun": 2025,
+    "LISA_Quadrant": "LL",
+    "LISA_I": 0.9396,
+    "LISA_P_Value": 0.1735,
+    "Signifikan": true,
+    "Moran_I_Global": 0.3816,
+    "P_Value_Global": 0.0413
+  }
+]

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SIPANGAN — Sistem Informasi Ketahanan Pangan Nasional</title>
+  <meta name="description" content="Dashboard analitik ketahanan pangan 38 provinsi Indonesia berbasis data mining. UMAP+GMM Clustering, GWR, LISA, Ensemble Forecasting." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌾</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.plot.ly/plotly-2.35.0.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="/src/styles.css" />
+</head>
+<body>
+  <div id="app">
+    <header id="app-header">
+      <div class="header-inner">
+        <div class="brand">
+          <span class="brand-icon">🌾</span>
+          <div>
+            <h1>SIPANGAN</h1>
+            <p class="brand-sub">Sistem Informasi Ketahanan Pangan Nasional — 38 Provinsi</p>
+          </div>
+        </div>
+        <div class="header-badges">
+          <span class="badge badge-outline" id="badge-year">Data 2025</span>
+          <span class="badge badge-solid">38 Provinsi</span>
+          <span class="badge badge-accent">UNITY #14 UNY</span>
+        </div>
+      </div>
+    </header>
+
+    <nav id="tab-nav">
+      <div class="nav-inner">
+        <button class="tab-btn active" data-tab="overview">
+          <span class="tab-icon">📊</span> Overview
+        </button>
+        <button class="tab-btn" data-tab="clustering">
+          <span class="tab-icon">🔬</span> Clustering
+        </button>
+        <button class="tab-btn" data-tab="gwr">
+          <span class="tab-icon">🗺️</span> GWR Explorer
+        </button>
+        <button class="tab-btn" data-tab="lisa">
+          <span class="tab-icon">🎯</span> Hotspot (LISA)
+        </button>
+        <button class="tab-btn" data-tab="forecast">
+          <span class="tab-icon">📈</span> Forecast
+        </button>
+        <button class="tab-btn" data-tab="about">
+          <span class="tab-icon">ℹ️</span> About
+        </button>
+        <div class="nav-indicator"></div>
+      </div>
+    </nav>
+
+    <main id="tab-content">
+      <div class="loading-screen" id="loading">
+        <div class="spinner"></div>
+        <p>Memuat data 38 provinsi...</p>
+      </div>
+    </main>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
