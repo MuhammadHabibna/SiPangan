@@ -253,39 +253,11 @@ function setupAI() {
 
 // ── Init ──
 async function init() {
-  const bootLines = [
-    "> Mengunduh data panel 38 Provinsi... [OK]",
-    "> Menjalankan reduksi dimensi PCA + UMAP... [OK]",
-    "> Menginisiasi klastering GMM k=6... [OK]",
-    "> Memuat model Ensemble Forecasting... [OK]",
-    "> Merender visualisasi spasial GWR & LISA... [OK]",
-    "> SYSTEM READY."
-  ];
-  
-  const terminal = document.getElementById('boot-terminal');
-  const bootBtn = document.getElementById('boot-btn');
-  const bootScreen = document.getElementById('boot-sequence');
   const execModal = document.getElementById('exec-modal');
   const execStartBtn = document.getElementById('exec-start-btn');
   
-  const typeLines = async () => {
-    for (let line of bootLines) {
-      const div = document.createElement('div');
-      div.className = 'boot-line';
-      div.textContent = line;
-      terminal.appendChild(div);
-      await new Promise(r => setTimeout(r, 450)); // typing delay
-    }
-  };
-
   try {
-    // Run typing and data loading concurrently
-    await Promise.all([
-      loadAllData(),
-      typeLines()
-    ]);
-
-    bootBtn.style.display = 'block';
+    await loadAllData();
 
     document.querySelectorAll('.tab-btn').forEach(btn => {
       btn.addEventListener('click', () => switchTab(btn.dataset.tab));
@@ -293,13 +265,10 @@ async function init() {
     setupAI();
     switchTab('overview');
 
-    // Flow: Boot -> Exec Modal -> Dashboard
-    bootBtn.onclick = () => {
-      bootScreen.classList.add('hidden');
-      setTimeout(() => {
-        execModal.classList.remove('hidden');
-      }, 800);
-    };
+    // Show Exec Modal immediately after loading
+    setTimeout(() => {
+      execModal.classList.remove('hidden');
+    }, 100);
 
     execStartBtn.onclick = () => {
       execModal.classList.add('hidden');
@@ -311,7 +280,6 @@ async function init() {
 
   } catch (err) {
     console.error('Failed to load data:', err);
-    terminal.innerHTML += `<div style="color:#ef4444;margin-top:10px;">> FATAL ERROR: ${err.message}</div>`;
     document.getElementById('tab-content').innerHTML = `
       <div class="loading-screen"><p style="color:#d73027">❌ Gagal memuat data: ${err.message}</p></div>`;
   }

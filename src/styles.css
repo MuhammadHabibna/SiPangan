@@ -376,41 +376,6 @@ body {
 .ai-send-btn:hover { background: var(--primary-dark); }
 .ai-send-btn:disabled { background: var(--text-muted); cursor: not-allowed; }
 
-/* === HOOK: BOOT SEQUENCE === */
-.boot-screen {
-  position: fixed; inset: 0; z-index: 99999;
-  background: #0f172a; color: #10b981;
-  display: flex; justify-content: center; align-items: center;
-  font-family: 'Courier New', Courier, monospace;
-  transition: opacity 0.8s ease, visibility 0.8s;
-}
-.boot-screen.hidden { opacity: 0; visibility: hidden; }
-.boot-content { width: 100%; max-width: 600px; padding: 20px; }
-.boot-logo {
-  font-size: 24px; font-weight: 700; color: #38bdf8; margin-bottom: 30px;
-  text-align: center; letter-spacing: 2px;
-  text-shadow: 0 0 10px rgba(56,189,248,0.5);
-}
-.boot-terminal {
-  font-size: 14px; line-height: 1.8; min-height: 200px;
-  text-shadow: 0 0 5px rgba(16,185,129,0.5);
-}
-.boot-line { margin-bottom: 8px; opacity: 0; animation: typeLine 0.1s forwards; }
-@keyframes typeLine { to { opacity: 1; } }
-.boot-btn {
-  display: block; margin: 40px auto 0; background: transparent;
-  border: 2px solid #10b981; color: #10b981; padding: 12px 24px;
-  font-family: inherit; font-size: 16px; font-weight: 700;
-  cursor: pointer; transition: all 0.2s;
-  animation: pulseNeon 2s infinite;
-}
-.boot-btn:hover { background: #10b981; color: #0f172a; box-shadow: 0 0 20px #10b981; }
-@keyframes pulseNeon {
-  0% { box-shadow: 0 0 0 0 rgba(16,185,129,0.4); }
-  70% { box-shadow: 0 0 0 15px rgba(16,185,129,0); }
-  100% { box-shadow: 0 0 0 0 rgba(16,185,129,0); }
-}
-
 /* === HOOK: EXEC MODAL === */
 .exec-modal-overlay {
   position: fixed; inset: 0; z-index: 99990;
