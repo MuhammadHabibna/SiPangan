@@ -2,1425 +2,1425 @@
   {
     "Provinsi":"ACEH",
     "Tahun":2021,
-    "UMAP1":11.430616,
-    "UMAP2":6.8585377,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "UMAP1":0.9215974237,
+    "UMAP2":-1.1560093335,
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"SUMATERA UTARA",
     "Tahun":2021,
-    "UMAP1":10.892913,
-    "UMAP2":6.232275,
-    "Cluster":1,
+    "UMAP1":0.9071229134,
+    "UMAP2":-1.0789737503,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"SUMATERA BARAT",
     "Tahun":2021,
-    "UMAP1":11.005371,
-    "UMAP2":6.5974693,
+    "UMAP1":1.119973544,
+    "UMAP2":-0.3440220385,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"RIAU",
     "Tahun":2021,
-    "UMAP1":16.888992,
-    "UMAP2":3.7205343,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "UMAP1":0.5602684572,
+    "UMAP2":0.5145014706,
+    "Cluster":3,
+    "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"JAMBI",
     "Tahun":2021,
-    "UMAP1":18.68912,
-    "UMAP2":4.4575167,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "UMAP1":-0.2896728213,
+    "UMAP2":-0.5863324606,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"SUMATERA SELATAN",
     "Tahun":2021,
-    "UMAP1":18.372196,
-    "UMAP2":6.6402354,
+    "UMAP1":-0.6375953507,
+    "UMAP2":-1.763661992,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"BENGKULU",
     "Tahun":2021,
-    "UMAP1":18.87584,
-    "UMAP2":4.9954214,
-    "Cluster":4,
+    "UMAP1":-0.8292812604,
+    "UMAP2":-0.9420857469,
+    "Cluster":5,
     "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"LAMPUNG",
     "Tahun":2021,
-    "UMAP1":18.293976,
-    "UMAP2":6.4946623,
+    "UMAP1":-0.7862164836,
+    "UMAP2":-1.906439944,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"KEP. BANGKA BELITUNG",
     "Tahun":2021,
-    "UMAP1":19.470999,
-    "UMAP2":3.3839736,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "UMAP1":-1.381282321,
+    "UMAP2":1.1575360718,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KEP. RIAU",
     "Tahun":2021,
-    "UMAP1":15.250869,
-    "UMAP2":2.2633631,
+    "UMAP1":1.6662558091,
+    "UMAP2":2.3076584156,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"DKI JAKARTA",
     "Tahun":2021,
-    "UMAP1":15.523236,
-    "UMAP2":1.4925767,
+    "UMAP1":2.9410069262,
+    "UMAP2":2.9579716116,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"JAWA BARAT",
     "Tahun":2021,
-    "UMAP1":3.3442075,
-    "UMAP2":7.9876494,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "UMAP1":1.1859703338,
+    "UMAP2":-2.1359154505,
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"JAWA TENGAH",
     "Tahun":2021,
-    "UMAP1":3.631086,
-    "UMAP2":7.6326337,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "UMAP1":0.5639208286,
+    "UMAP2":-3.300655241,
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"DI YOGYAKARTA",
     "Tahun":2021,
-    "UMAP1":9.402427,
-    "UMAP2":7.3380632,
-    "Cluster":1,
+    "UMAP1":2.9077999758,
+    "UMAP2":-1.0322303812,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"JAWA TIMUR",
     "Tahun":2021,
-    "UMAP1":3.660753,
-    "UMAP2":7.667514,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "UMAP1":0.8861879685,
+    "UMAP2":-2.9391415861,
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"BANTEN",
     "Tahun":2021,
-    "UMAP1":10.33915,
-    "UMAP2":6.091969,
-    "Cluster":1,
+    "UMAP1":1.0146885446,
+    "UMAP2":-0.2591387916,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"BALI",
     "Tahun":2021,
-    "UMAP1":10.008051,
-    "UMAP2":6.7223244,
-    "Cluster":1,
+    "UMAP1":1.8626268695,
+    "UMAP2":-1.3377347609,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"NUSA TENGGARA BARAT",
     "Tahun":2021,
-    "UMAP1":16.563307,
-    "UMAP2":6.157287,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "UMAP1":-0.2370421322,
+    "UMAP2":-2.0284103018,
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"NUSA TENGGARA TIMUR",
     "Tahun":2021,
-    "UMAP1":15.594423,
-    "UMAP2":6.3238673,
+    "UMAP1":-2.0169970993,
+    "UMAP2":-2.2636342195,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"KALIMANTAN BARAT",
     "Tahun":2021,
-    "UMAP1":20.2854,
-    "UMAP2":3.18245,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "UMAP1":-1.308931193,
+    "UMAP2":-0.5232187449,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN TENGAH",
     "Tahun":2021,
-    "UMAP1":20.064573,
-    "UMAP2":3.1297233,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "UMAP1":-0.7855699099,
+    "UMAP2":0.3211729593,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN SELATAN",
     "Tahun":2021,
-    "UMAP1":19.836206,
-    "UMAP2":3.519812,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "UMAP1":-0.5816768447,
+    "UMAP2":-0.2797309143,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN TIMUR",
     "Tahun":2021,
-    "UMAP1":15.6695,
-    "UMAP2":2.3574798,
+    "UMAP1":1.6259478648,
+    "UMAP2":2.1328192691,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"KALIMANTAN UTARA",
     "Tahun":2021,
-    "UMAP1":16.291348,
-    "UMAP2":2.735817,
+    "UMAP1":-0.1043146552,
+    "UMAP2":1.6718438304,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"SULAWESI UTARA",
     "Tahun":2021,
-    "UMAP1":10.774813,
-    "UMAP2":5.7571034,
-    "Cluster":1,
-    "Cluster_Name":"Ketahanan Tinggi"
+    "UMAP1":0.875755508,
+    "UMAP2":-0.5988816828,
+    "Cluster":3,
+    "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"SULAWESI TENGAH",
     "Tahun":2021,
-    "UMAP1":17.124214,
-    "UMAP2":5.356314,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "UMAP1":-0.2777970925,
+    "UMAP2":-1.3880242364,
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"SULAWESI SELATAN",
     "Tahun":2021,
-    "UMAP1":4.643705,
-    "UMAP2":8.058889,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "UMAP1":0.9384580693,
+    "UMAP2":-2.3370864185,
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"SULAWESI TENGGARA",
     "Tahun":2021,
-    "UMAP1":16.73058,
-    "UMAP2":5.131445,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "UMAP1":0.4730255056,
+    "UMAP2":-1.6014999605,
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"GORONTALO",
     "Tahun":2021,
-    "UMAP1":16.33639,
-    "UMAP2":6.0225806,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "UMAP1":-0.5421612614,
+    "UMAP2":-2.2325659943,
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"SULAWESI BARAT",
     "Tahun":2021,
-    "UMAP1":17.652817,
-    "UMAP2":6.403601,
+    "UMAP1":-1.3805754973,
+    "UMAP2":-2.6438121824,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"MALUKU",
     "Tahun":2021,
-    "UMAP1":12.170525,
-    "UMAP2":7.0535297,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "UMAP1":0.440935431,
+    "UMAP2":-0.7777793563,
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"MALUKU UTARA",
     "Tahun":2021,
-    "UMAP1":16.678255,
-    "UMAP2":4.3850713,
-    "Cluster":0,
+    "UMAP1":0.0555838162,
+    "UMAP2":-0.6953880101,
+    "Cluster":2,
     "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"PAPUA BARAT",
     "Tahun":2021,
-    "UMAP1":13.353441,
-    "UMAP2":6.8884754,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "UMAP1":-1.7290344985,
+    "UMAP2":-0.1020710817,
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"PAPUA",
     "Tahun":2021,
-    "UMAP1":14.125333,
-    "UMAP2":6.6367865,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "UMAP1":-6.4990709072,
+    "UMAP2":-0.4496364881,
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"ACEH",
     "Tahun":2022,
-    "UMAP1":11.341269,
-    "UMAP2":6.7790174,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "UMAP1":0.9322467829,
+    "UMAP2":-0.8502401959,
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"SUMATERA UTARA",
     "Tahun":2022,
-    "UMAP1":10.77282,
-    "UMAP2":6.2645593,
-    "Cluster":1,
+    "UMAP1":0.9946055481,
+    "UMAP2":-0.6398127498,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"SUMATERA BARAT",
     "Tahun":2022,
-    "UMAP1":10.895973,
-    "UMAP2":6.6188293,
+    "UMAP1":1.2046162596,
+    "UMAP2":-0.0470132297,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"RIAU",
     "Tahun":2022,
-    "UMAP1":16.494438,
-    "UMAP2":2.9722238,
+    "UMAP1":0.617490747,
+    "UMAP2":1.0255491292,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"JAMBI",
     "Tahun":2022,
-    "UMAP1":18.740177,
-    "UMAP2":4.4433494,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "UMAP1":-0.3326565316,
+    "UMAP2":-0.0964686322,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"SUMATERA SELATAN",
     "Tahun":2022,
-    "UMAP1":18.611021,
-    "UMAP2":6.7033014,
+    "UMAP1":-0.4847148447,
+    "UMAP2":-1.5204837489,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"BENGKULU",
     "Tahun":2022,
-    "UMAP1":18.755783,
-    "UMAP2":5.031758,
-    "Cluster":4,
+    "UMAP1":-0.6165153537,
+    "UMAP2":-0.6352235608,
+    "Cluster":5,
     "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"LAMPUNG",
     "Tahun":2022,
-    "UMAP1":18.411434,
-    "UMAP2":6.463893,
+    "UMAP1":-0.7455547536,
+    "UMAP2":-1.6468862091,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"KEP. BANGKA BELITUNG",
     "Tahun":2022,
-    "UMAP1":19.315697,
-    "UMAP2":3.472548,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "UMAP1":-1.1617048675,
+    "UMAP2":1.6130437739,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KEP. RIAU",
     "Tahun":2022,
-    "UMAP1":15.393052,
-    "UMAP2":2.3227289,
+    "UMAP1":1.4683175161,
+    "UMAP2":2.6826943552,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"DKI JAKARTA",
     "Tahun":2022,
-    "UMAP1":15.506094,
-    "UMAP2":1.4758359,
+    "UMAP1":2.699984038,
+    "UMAP2":3.773639376,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"JAWA BARAT",
     "Tahun":2022,
-    "UMAP1":3.313547,
-    "UMAP2":7.9980645,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "UMAP1":1.1225728491,
+    "UMAP2":-1.9633154286,
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"JAWA TENGAH",
     "Tahun":2022,
-    "UMAP1":3.6641402,
-    "UMAP2":7.7147694,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "UMAP1":0.5689210478,
+    "UMAP2":-2.8710865105,
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"DI YOGYAKARTA",
     "Tahun":2022,
-    "UMAP1":9.32461,
-    "UMAP2":7.4145274,
-    "Cluster":1,
+    "UMAP1":2.9198594138,
+    "UMAP2":-0.6881371964,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"JAWA TIMUR",
     "Tahun":2022,
-    "UMAP1":3.719425,
-    "UMAP2":7.732907,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "UMAP1":0.9139886743,
+    "UMAP2":-2.5505258204,
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"BANTEN",
     "Tahun":2022,
-    "UMAP1":10.306822,
-    "UMAP2":5.9117827,
-    "Cluster":1,
+    "UMAP1":0.9637060804,
+    "UMAP2":0.1204770066,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"BALI",
     "Tahun":2022,
-    "UMAP1":9.954395,
-    "UMAP2":6.8038054,
-    "Cluster":1,
+    "UMAP1":2.0236671852,
+    "UMAP2":-1.2983828977,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"NUSA TENGGARA BARAT",
     "Tahun":2022,
-    "UMAP1":16.461618,
-    "UMAP2":6.130248,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "UMAP1":-0.1127515989,
+    "UMAP2":-1.8146207615,
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"NUSA TENGGARA TIMUR",
     "Tahun":2022,
-    "UMAP1":15.665565,
-    "UMAP2":6.1756883,
+    "UMAP1":-1.7911334824,
+    "UMAP2":-2.0364581428,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"KALIMANTAN BARAT",
     "Tahun":2022,
-    "UMAP1":20.318607,
-    "UMAP2":3.118099,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "UMAP1":-1.3174907309,
+    "UMAP2":-0.1105433376,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN TENGAH",
     "Tahun":2022,
-    "UMAP1":20.030445,
-    "UMAP2":3.4202082,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "UMAP1":-0.8536028292,
+    "UMAP2":0.70390015,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN SELATAN",
     "Tahun":2022,
-    "UMAP1":19.716581,
-    "UMAP2":3.237507,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "UMAP1":-0.5510528352,
+    "UMAP2":0.1886382064,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN TIMUR",
     "Tahun":2022,
-    "UMAP1":15.706528,
-    "UMAP2":2.1122818,
+    "UMAP1":1.6757727166,
+    "UMAP2":2.9825953678,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"KALIMANTAN UTARA",
     "Tahun":2022,
-    "UMAP1":16.091928,
-    "UMAP2":2.667512,
+    "UMAP1":0.2296919794,
+    "UMAP2":2.1293096613,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"SULAWESI UTARA",
     "Tahun":2022,
-    "UMAP1":10.693884,
-    "UMAP2":5.7835574,
-    "Cluster":1,
-    "Cluster_Name":"Ketahanan Tinggi"
+    "UMAP1":0.962599486,
+    "UMAP2":-0.3859771679,
+    "Cluster":3,
+    "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"SULAWESI TENGAH",
     "Tahun":2022,
-    "UMAP1":17.175497,
-    "UMAP2":4.9355197,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "UMAP1":-0.3242495125,
+    "UMAP2":-0.7229994962,
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"SULAWESI SELATAN",
     "Tahun":2022,
-    "UMAP1":4.593295,
-    "UMAP2":7.9714665,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "UMAP1":0.9485018553,
+    "UMAP2":-2.1286727144,
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"SULAWESI TENGGARA",
     "Tahun":2022,
-    "UMAP1":16.75548,
-    "UMAP2":5.073044,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "UMAP1":0.5822524099,
+    "UMAP2":-1.3306304323,
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"GORONTALO",
     "Tahun":2022,
-    "UMAP1":16.492147,
-    "UMAP2":5.949254,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "UMAP1":-0.3981148117,
+    "UMAP2":-2.2165421868,
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"SULAWESI BARAT",
     "Tahun":2022,
-    "UMAP1":17.629824,
-    "UMAP2":6.3403196,
+    "UMAP1":-1.4526842257,
+    "UMAP2":-2.3381965759,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"MALUKU",
     "Tahun":2022,
-    "UMAP1":12.316235,
-    "UMAP2":7.1781507,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "UMAP1":0.454052601,
+    "UMAP2":-0.2218625909,
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"MALUKU UTARA",
     "Tahun":2022,
-    "UMAP1":16.681648,
-    "UMAP2":4.3075414,
-    "Cluster":0,
+    "UMAP1":0.2111721443,
+    "UMAP2":-0.4500569707,
+    "Cluster":2,
     "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"PAPUA BARAT",
     "Tahun":2022,
-    "UMAP1":13.379043,
-    "UMAP2":6.9253793,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "UMAP1":-1.7694765646,
+    "UMAP2":0.0876323309,
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"PAPUA",
     "Tahun":2022,
-    "UMAP1":14.113592,
-    "UMAP2":6.617709,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "UMAP1":-5.4248795088,
+    "UMAP2":0.6762270805,
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"ACEH",
     "Tahun":2023,
-    "UMAP1":11.27501,
-    "UMAP2":6.7973647,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "UMAP1":0.9924906038,
+    "UMAP2":-0.5518430224,
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"SUMATERA UTARA",
     "Tahun":2023,
-    "UMAP1":10.637537,
-    "UMAP2":6.500519,
-    "Cluster":1,
+    "UMAP1":1.1042669667,
+    "UMAP2":-0.3547091235,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"SUMATERA BARAT",
     "Tahun":2023,
-    "UMAP1":10.635503,
-    "UMAP2":6.8361096,
+    "UMAP1":1.2726434043,
+    "UMAP2":0.2438426606,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"RIAU",
     "Tahun":2023,
-    "UMAP1":16.333885,
-    "UMAP2":2.9603286,
+    "UMAP1":0.6876644221,
+    "UMAP2":1.4241017449,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"JAMBI",
     "Tahun":2023,
-    "UMAP1":18.916845,
-    "UMAP2":4.176239,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "UMAP1":-0.2638933443,
+    "UMAP2":0.3152428166,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"SUMATERA SELATAN",
     "Tahun":2023,
-    "UMAP1":18.778069,
-    "UMAP2":6.488492,
+    "UMAP1":-0.3162419852,
+    "UMAP2":-1.3944887302,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"BENGKULU",
     "Tahun":2023,
-    "UMAP1":18.890171,
-    "UMAP2":4.924546,
-    "Cluster":4,
+    "UMAP1":-0.5328993607,
+    "UMAP2":-0.3047211059,
+    "Cluster":5,
     "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"LAMPUNG",
     "Tahun":2023,
-    "UMAP1":18.51895,
-    "UMAP2":6.30113,
+    "UMAP1":-0.5862518739,
+    "UMAP2":-1.3189899799,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"KEP. BANGKA BELITUNG",
     "Tahun":2023,
-    "UMAP1":19.228584,
-    "UMAP2":3.5182464,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "UMAP1":-1.0141438451,
+    "UMAP2":1.6915040272,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KEP. RIAU",
     "Tahun":2023,
-    "UMAP1":15.46326,
-    "UMAP2":2.4629908,
+    "UMAP1":1.4341500878,
+    "UMAP2":2.8861165177,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"DKI JAKARTA",
     "Tahun":2023,
-    "UMAP1":15.549476,
-    "UMAP2":1.4715557,
+    "UMAP1":2.868919937,
+    "UMAP2":4.4351606412,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"JAWA BARAT",
     "Tahun":2023,
-    "UMAP1":3.3279963,
-    "UMAP2":7.9861474,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "UMAP1":1.1567654835,
+    "UMAP2":-1.652565043,
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"JAWA TENGAH",
     "Tahun":2023,
-    "UMAP1":3.6061354,
-    "UMAP2":7.599824,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "UMAP1":0.6087982848,
+    "UMAP2":-2.6256087458,
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"DI YOGYAKARTA",
     "Tahun":2023,
-    "UMAP1":9.2630205,
-    "UMAP2":7.4762645,
-    "Cluster":1,
+    "UMAP1":2.8743490832,
+    "UMAP2":-0.1890275593,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"JAWA TIMUR",
     "Tahun":2023,
-    "UMAP1":4.00211,
-    "UMAP2":7.7536507,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "UMAP1":0.9426661915,
+    "UMAP2":-2.2704057636,
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"BANTEN",
     "Tahun":2023,
-    "UMAP1":10.241842,
-    "UMAP2":6.1070914,
-    "Cluster":1,
+    "UMAP1":0.9767779824,
+    "UMAP2":0.2734052475,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"BALI",
     "Tahun":2023,
-    "UMAP1":9.703169,
-    "UMAP2":7.0819736,
-    "Cluster":1,
+    "UMAP1":1.898203708,
+    "UMAP2":-0.8633978657,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"NUSA TENGGARA BARAT",
     "Tahun":2023,
-    "UMAP1":16.585257,
-    "UMAP2":6.0860753,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "UMAP1":-0.0237130575,
+    "UMAP2":-1.5437276555,
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"NUSA TENGGARA TIMUR",
     "Tahun":2023,
-    "UMAP1":15.5287485,
-    "UMAP2":6.2349887,
+    "UMAP1":-1.6700602665,
+    "UMAP2":-1.7907049878,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"KALIMANTAN BARAT",
     "Tahun":2023,
-    "UMAP1":20.21249,
-    "UMAP2":3.1314368,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "UMAP1":-1.0946307433,
+    "UMAP2":0.07497087,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN TENGAH",
     "Tahun":2023,
-    "UMAP1":20.004322,
-    "UMAP2":3.434553,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "UMAP1":-0.7849806842,
+    "UMAP2":0.8854327337,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN SELATAN",
     "Tahun":2023,
-    "UMAP1":19.701323,
-    "UMAP2":3.627849,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "UMAP1":-0.456820452,
+    "UMAP2":0.3105790478,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN TIMUR",
     "Tahun":2023,
-    "UMAP1":15.631693,
-    "UMAP2":1.9222438,
+    "UMAP1":1.7143893019,
+    "UMAP2":3.100130617,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"KALIMANTAN UTARA",
     "Tahun":2023,
-    "UMAP1":16.113438,
-    "UMAP2":2.4814842,
+    "UMAP1":0.3593131623,
+    "UMAP2":2.439835419,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"SULAWESI UTARA",
     "Tahun":2023,
-    "UMAP1":10.833443,
-    "UMAP2":5.6615763,
-    "Cluster":1,
-    "Cluster_Name":"Ketahanan Tinggi"
+    "UMAP1":1.0311058446,
+    "UMAP2":-0.3653920671,
+    "Cluster":3,
+    "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"SULAWESI TENGAH",
     "Tahun":2023,
-    "UMAP1":17.230717,
-    "UMAP2":4.9494405,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "UMAP1":-0.2550458799,
+    "UMAP2":-0.5244872575,
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"SULAWESI SELATAN",
     "Tahun":2023,
-    "UMAP1":4.723515,
-    "UMAP2":7.9585185,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "UMAP1":1.0026652925,
+    "UMAP2":-1.7864831295,
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"SULAWESI TENGGARA",
     "Tahun":2023,
-    "UMAP1":16.687773,
-    "UMAP2":5.1538258,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "UMAP1":0.6083296837,
+    "UMAP2":-1.1663900527,
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"GORONTALO",
     "Tahun":2023,
-    "UMAP1":16.486675,
-    "UMAP2":5.8469725,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "UMAP1":-0.3244167788,
+    "UMAP2":-1.8586810829,
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"SULAWESI BARAT",
     "Tahun":2023,
-    "UMAP1":17.615608,
-    "UMAP2":6.3783913,
+    "UMAP1":-1.3496034384,
+    "UMAP2":-2.0320975094,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"MALUKU",
     "Tahun":2023,
-    "UMAP1":12.277745,
-    "UMAP2":7.1564226,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "UMAP1":0.3859141375,
+    "UMAP2":0.0387783243,
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"MALUKU UTARA",
     "Tahun":2023,
-    "UMAP1":16.679335,
-    "UMAP2":4.038208,
-    "Cluster":0,
+    "UMAP1":0.2166116537,
+    "UMAP2":0.1951134739,
+    "Cluster":2,
     "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"PAPUA BARAT",
     "Tahun":2023,
-    "UMAP1":13.411668,
-    "UMAP2":6.7685895,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "UMAP1":-1.5623386684,
+    "UMAP2":0.6534152919,
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"PAPUA",
     "Tahun":2023,
-    "UMAP1":14.053076,
-    "UMAP2":6.541887,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "UMAP1":-5.4378167304,
+    "UMAP2":0.8352100066,
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"ACEH",
     "Tahun":2024,
-    "UMAP1":11.18674,
-    "UMAP2":6.926619,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "UMAP1":1.0545650592,
+    "UMAP2":-0.323613039,
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"SUMATERA UTARA",
     "Tahun":2024,
-    "UMAP1":10.551037,
-    "UMAP2":6.662311,
-    "Cluster":1,
+    "UMAP1":1.1859737328,
+    "UMAP2":-0.1169435622,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"SUMATERA BARAT",
     "Tahun":2024,
-    "UMAP1":10.766758,
-    "UMAP2":6.9867287,
+    "UMAP1":1.3436737625,
+    "UMAP2":0.7664496257,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"RIAU",
     "Tahun":2024,
-    "UMAP1":16.331667,
-    "UMAP2":2.6496174,
+    "UMAP1":0.7537041108,
+    "UMAP2":1.8108623996,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"JAMBI",
     "Tahun":2024,
-    "UMAP1":19.049463,
-    "UMAP2":4.0241256,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "UMAP1":-0.1384146969,
+    "UMAP2":0.7330061463,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"SUMATERA SELATAN",
     "Tahun":2024,
-    "UMAP1":18.834461,
-    "UMAP2":6.5605674,
+    "UMAP1":-0.348391188,
+    "UMAP2":-0.9802398105,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"BENGKULU",
     "Tahun":2024,
-    "UMAP1":18.957344,
-    "UMAP2":4.8453712,
-    "Cluster":4,
+    "UMAP1":-0.5137142021,
+    "UMAP2":0.0741566068,
+    "Cluster":5,
     "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"LAMPUNG",
     "Tahun":2024,
-    "UMAP1":18.652044,
-    "UMAP2":6.299153,
+    "UMAP1":-0.4773457518,
+    "UMAP2":-1.0812212488,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"KEP. BANGKA BELITUNG",
     "Tahun":2024,
-    "UMAP1":19.257359,
-    "UMAP2":3.4652762,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "UMAP1":-0.8779144244,
+    "UMAP2":2.0750269097,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KEP. RIAU",
     "Tahun":2024,
-    "UMAP1":15.348188,
-    "UMAP2":2.1719308,
+    "UMAP1":1.6624468723,
+    "UMAP2":3.4384688034,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"DKI JAKARTA",
     "Tahun":2024,
-    "UMAP1":15.579621,
-    "UMAP2":1.5367694,
+    "UMAP1":3.0692799755,
+    "UMAP2":5.0164931413,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"JAWA BARAT",
     "Tahun":2024,
-    "UMAP1":3.495162,
-    "UMAP2":8.221579,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "UMAP1":1.2022695373,
+    "UMAP2":-1.3482119866,
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"JAWA TENGAH",
     "Tahun":2024,
-    "UMAP1":3.809039,
-    "UMAP2":7.8439326,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "UMAP1":0.6311612036,
+    "UMAP2":-2.3572217236,
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"DI YOGYAKARTA",
     "Tahun":2024,
-    "UMAP1":9.214338,
-    "UMAP2":7.5223174,
-    "Cluster":1,
+    "UMAP1":2.7833542712,
+    "UMAP2":0.2056373315,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"JAWA TIMUR",
     "Tahun":2024,
-    "UMAP1":3.8539808,
-    "UMAP2":8.059077,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "UMAP1":1.0251980956,
+    "UMAP2":-1.9651261414,
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"BANTEN",
     "Tahun":2024,
-    "UMAP1":10.232483,
-    "UMAP2":6.1675634,
-    "Cluster":1,
+    "UMAP1":0.9951132711,
+    "UMAP2":0.5815452108,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"BALI",
     "Tahun":2024,
-    "UMAP1":9.671019,
-    "UMAP2":7.023317,
-    "Cluster":1,
+    "UMAP1":1.7893317638,
+    "UMAP2":-0.446192915,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"NUSA TENGGARA BARAT",
     "Tahun":2024,
-    "UMAP1":16.704638,
-    "UMAP2":6.2638717,
+    "UMAP1":0.0784611715,
+    "UMAP2":-1.1988481429,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"NUSA TENGGARA TIMUR",
     "Tahun":2024,
-    "UMAP1":15.704225,
-    "UMAP2":6.1745024,
+    "UMAP1":-1.4259341844,
+    "UMAP2":-1.5890571823,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"KALIMANTAN BARAT",
     "Tahun":2024,
-    "UMAP1":20.189405,
-    "UMAP2":3.2381222,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "UMAP1":-0.9844879418,
+    "UMAP2":0.4001874806,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN TENGAH",
     "Tahun":2024,
-    "UMAP1":19.88569,
-    "UMAP2":3.547999,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "UMAP1":-0.6989278452,
+    "UMAP2":1.1979210743,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN SELATAN",
     "Tahun":2024,
-    "UMAP1":19.566692,
-    "UMAP2":3.8102403,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "UMAP1":-0.3368850373,
+    "UMAP2":0.5943913094,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN TIMUR",
     "Tahun":2024,
-    "UMAP1":15.751965,
-    "UMAP2":2.0223782,
+    "UMAP1":1.6804256269,
+    "UMAP2":3.3886517551,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"KALIMANTAN UTARA",
     "Tahun":2024,
-    "UMAP1":16.19487,
-    "UMAP2":2.2773058,
+    "UMAP1":0.3565007039,
+    "UMAP2":2.7182189695,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"SULAWESI UTARA",
     "Tahun":2024,
-    "UMAP1":10.662761,
-    "UMAP2":5.9584327,
-    "Cluster":1,
-    "Cluster_Name":"Ketahanan Tinggi"
+    "UMAP1":1.0724994086,
+    "UMAP2":-0.1176319678,
+    "Cluster":3,
+    "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"SULAWESI TENGAH",
     "Tahun":2024,
-    "UMAP1":17.265833,
-    "UMAP2":4.730207,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "UMAP1":-0.1511520868,
+    "UMAP2":-0.0625003938,
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"SULAWESI SELATAN",
     "Tahun":2024,
-    "UMAP1":4.7199745,
-    "UMAP2":8.090397,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "UMAP1":1.0849436198,
+    "UMAP2":-1.4961500353,
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"SULAWESI TENGGARA",
     "Tahun":2024,
-    "UMAP1":16.783688,
-    "UMAP2":5.0337152,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "UMAP1":0.7225225827,
+    "UMAP2":-0.9203148018,
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"GORONTALO",
     "Tahun":2024,
-    "UMAP1":16.561882,
-    "UMAP2":5.752281,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "UMAP1":-0.1875693286,
+    "UMAP2":-1.5164760975,
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"SULAWESI BARAT",
     "Tahun":2024,
-    "UMAP1":17.744888,
-    "UMAP2":6.2655644,
+    "UMAP1":-1.1906450105,
+    "UMAP2":-1.7230525805,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"MALUKU",
     "Tahun":2024,
-    "UMAP1":12.32523,
-    "UMAP2":7.254747,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "UMAP1":0.4317766576,
+    "UMAP2":0.262066819,
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"MALUKU UTARA",
     "Tahun":2024,
-    "UMAP1":16.738304,
-    "UMAP2":3.5484877,
+    "UMAP1":0.1702476766,
+    "UMAP2":0.739701978,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"PAPUA BARAT",
     "Tahun":2024,
-    "UMAP1":13.550235,
-    "UMAP2":6.6896744,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "UMAP1":-2.0612667071,
+    "UMAP2":1.4886379433,
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"PAPUA BARAT DAYA",
     "Tahun":2024,
-    "UMAP1":12.976195,
-    "UMAP2":6.9635754,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "UMAP1":-0.8345763898,
+    "UMAP2":1.0066767742,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"PAPUA",
     "Tahun":2024,
-    "UMAP1":12.6970625,
-    "UMAP2":7.0040674,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "UMAP1":0.0113485656,
+    "UMAP2":0.7794502512,
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"PAPUA SELATAN",
     "Tahun":2024,
-    "UMAP1":13.993202,
-    "UMAP2":6.4163504,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "UMAP1":-3.4363277639,
+    "UMAP2":0.024462196,
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"PAPUA TENGAH",
     "Tahun":2024,
-    "UMAP1":14.043633,
-    "UMAP2":6.7521653,
-    "Cluster":5,
+    "UMAP1":-9.3060988394,
+    "UMAP2":1.1107008404,
+    "Cluster":4,
     "Cluster_Name":"Kerawanan Tinggi"
   },
   {
     "Provinsi":"PAPUA PEGUNUNGAN",
     "Tahun":2024,
-    "UMAP1":14.15373,
-    "UMAP2":6.9268928,
-    "Cluster":5,
+    "UMAP1":-11.6844040188,
+    "UMAP2":2.2487103659,
+    "Cluster":4,
     "Cluster_Name":"Kerawanan Tinggi"
   },
   {
     "Provinsi":"ACEH",
     "Tahun":2025,
-    "UMAP1":11.059891,
-    "UMAP2":7.0508437,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "UMAP1":1.4013271561,
+    "UMAP2":-0.0234284074,
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"SUMATERA UTARA",
     "Tahun":2025,
-    "UMAP1":10.51014,
-    "UMAP2":6.7834377,
-    "Cluster":1,
+    "UMAP1":1.3830737772,
+    "UMAP2":0.2899911041,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"SUMATERA BARAT",
     "Tahun":2025,
-    "UMAP1":10.685355,
-    "UMAP2":7.0620255,
+    "UMAP1":1.5994611128,
+    "UMAP2":1.1452193979,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"RIAU",
     "Tahun":2025,
-    "UMAP1":16.185175,
-    "UMAP2":2.4111283,
+    "UMAP1":1.0126286888,
+    "UMAP2":2.187364189,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"JAMBI",
     "Tahun":2025,
-    "UMAP1":18.876848,
-    "UMAP2":4.057032,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "UMAP1":0.0871139775,
+    "UMAP2":0.9751628555,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"SUMATERA SELATAN",
     "Tahun":2025,
-    "UMAP1":18.83455,
-    "UMAP2":6.485146,
+    "UMAP1":0.0446799394,
+    "UMAP2":-0.760703846,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"BENGKULU",
     "Tahun":2025,
-    "UMAP1":19.056664,
-    "UMAP2":4.6855097,
-    "Cluster":4,
+    "UMAP1":-0.274640743,
+    "UMAP2":0.4055609873,
+    "Cluster":5,
     "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"LAMPUNG",
     "Tahun":2025,
-    "UMAP1":18.73524,
-    "UMAP2":6.3558025,
+    "UMAP1":-0.1383869521,
+    "UMAP2":-0.8140228459,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"KEP. BANGKA BELITUNG",
     "Tahun":2025,
-    "UMAP1":19.238966,
-    "UMAP2":3.3900156,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "UMAP1":-0.5647306918,
+    "UMAP2":2.3682306669,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KEP. RIAU",
     "Tahun":2025,
-    "UMAP1":15.618052,
-    "UMAP2":2.2325325,
+    "UMAP1":1.9389598821,
+    "UMAP2":4.3116617462,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"DKI JAKARTA",
     "Tahun":2025,
-    "UMAP1":15.70503,
-    "UMAP2":1.602815,
+    "UMAP1":3.5445261646,
+    "UMAP2":5.5986920016,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"JAWA BARAT",
     "Tahun":2025,
-    "UMAP1":3.534772,
-    "UMAP2":8.170367,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "UMAP1":1.5994668152,
+    "UMAP2":-1.0318557558,
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"JAWA TENGAH",
     "Tahun":2025,
-    "UMAP1":4.0228596,
-    "UMAP2":7.880024,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "UMAP1":0.965084409,
+    "UMAP2":-2.0597615575,
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"DI YOGYAKARTA",
     "Tahun":2025,
-    "UMAP1":9.3186655,
-    "UMAP2":7.4412484,
-    "Cluster":1,
+    "UMAP1":3.0667302247,
+    "UMAP2":0.4635427401,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"JAWA TIMUR",
     "Tahun":2025,
-    "UMAP1":3.9471526,
-    "UMAP2":7.9960485,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "UMAP1":1.3015166509,
+    "UMAP2":-1.6490154624,
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"BANTEN",
     "Tahun":2025,
-    "UMAP1":10.328732,
-    "UMAP2":6.292095,
-    "Cluster":1,
+    "UMAP1":1.373962004,
+    "UMAP2":0.8289911004,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"BALI",
     "Tahun":2025,
-    "UMAP1":9.636836,
-    "UMAP2":7.1426716,
-    "Cluster":1,
+    "UMAP1":2.0218778646,
+    "UMAP2":-0.1166133052,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"NUSA TENGGARA BARAT",
     "Tahun":2025,
-    "UMAP1":16.771902,
-    "UMAP2":6.316812,
+    "UMAP1":0.4669276152,
+    "UMAP2":-0.8011544079,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"NUSA TENGGARA TIMUR",
     "Tahun":2025,
-    "UMAP1":15.824225,
-    "UMAP2":5.9967117,
+    "UMAP1":-0.9389242772,
+    "UMAP2":-1.2798905369,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"KALIMANTAN BARAT",
     "Tahun":2025,
-    "UMAP1":20.062456,
-    "UMAP2":3.196871,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "UMAP1":-0.6481791152,
+    "UMAP2":0.7855388177,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN TENGAH",
     "Tahun":2025,
-    "UMAP1":19.744728,
-    "UMAP2":3.7040327,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "UMAP1":-0.3458764313,
+    "UMAP2":1.4770677346,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN SELATAN",
     "Tahun":2025,
-    "UMAP1":19.535624,
-    "UMAP2":3.8620844,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "UMAP1":0.1294417211,
+    "UMAP2":0.9652667376,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN TIMUR",
     "Tahun":2025,
-    "UMAP1":15.781531,
-    "UMAP2":1.9391664,
+    "UMAP1":1.6958782829,
+    "UMAP2":3.6302928559,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"KALIMANTAN UTARA",
     "Tahun":2025,
-    "UMAP1":16.185955,
-    "UMAP2":2.262516,
+    "UMAP1":0.57998653,
+    "UMAP2":2.9705638257,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"SULAWESI UTARA",
     "Tahun":2025,
-    "UMAP1":10.578058,
-    "UMAP2":6.028788,
-    "Cluster":1,
-    "Cluster_Name":"Ketahanan Tinggi"
+    "UMAP1":1.1698475486,
+    "UMAP2":0.1304944344,
+    "Cluster":3,
+    "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"SULAWESI TENGAH",
     "Tahun":2025,
-    "UMAP1":17.352015,
-    "UMAP2":4.607689,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "UMAP1":-0.1308403696,
+    "UMAP2":0.2351468855,
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"SULAWESI SELATAN",
     "Tahun":2025,
-    "UMAP1":4.6102643,
-    "UMAP2":8.087023,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "UMAP1":1.3043311198,
+    "UMAP2":-1.168868423,
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"SULAWESI TENGGARA",
     "Tahun":2025,
-    "UMAP1":16.720144,
-    "UMAP2":5.060711,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "UMAP1":0.9087861173,
+    "UMAP2":-0.5209951133,
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"GORONTALO",
     "Tahun":2025,
-    "UMAP1":16.763304,
-    "UMAP2":5.8212075,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "UMAP1":0.0331551412,
+    "UMAP2":-1.1845909563,
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"SULAWESI BARAT",
     "Tahun":2025,
-    "UMAP1":17.743109,
-    "UMAP2":6.1662993,
+    "UMAP1":-0.7039543119,
+    "UMAP2":-1.4649383316,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"MALUKU",
     "Tahun":2025,
-    "UMAP1":12.293238,
-    "UMAP2":7.214789,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "UMAP1":0.5844906122,
+    "UMAP2":0.7196874422,
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"MALUKU UTARA",
     "Tahun":2025,
-    "UMAP1":16.61095,
-    "UMAP2":3.3149643,
+    "UMAP1":0.4482134344,
+    "UMAP2":1.304268363,
     "Cluster":3,
     "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"PAPUA BARAT",
     "Tahun":2025,
-    "UMAP1":13.34893,
-    "UMAP2":6.8064194,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "UMAP1":-1.6920017815,
+    "UMAP2":1.9631022024,
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"PAPUA BARAT DAYA",
     "Tahun":2025,
-    "UMAP1":12.870961,
-    "UMAP2":6.9893007,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "UMAP1":-0.6713515877,
+    "UMAP2":1.5161074647,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"PAPUA",
     "Tahun":2025,
-    "UMAP1":12.553081,
-    "UMAP2":6.931428,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "UMAP1":0.4426953032,
+    "UMAP2":1.261574755,
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"PAPUA SELATAN",
     "Tahun":2025,
-    "UMAP1":13.894245,
-    "UMAP2":6.5451827,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "UMAP1":-3.2538520018,
+    "UMAP2":0.4492575434,
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"PAPUA TENGAH",
     "Tahun":2025,
-    "UMAP1":14.053419,
-    "UMAP2":6.79567,
-    "Cluster":5,
+    "UMAP1":-8.3870435697,
+    "UMAP2":1.1655935022,
+    "Cluster":4,
     "Cluster_Name":"Kerawanan Tinggi"
   },
   {
     "Provinsi":"PAPUA PEGUNUNGAN",
     "Tahun":2025,
-    "UMAP1":14.186495,
-    "UMAP2":6.9640903,
-    "Cluster":5,
+    "UMAP1":-11.98563398,
+    "UMAP2":3.320726094,
+    "Cluster":4,
     "Cluster_Name":"Kerawanan Tinggi"
   }
 ]

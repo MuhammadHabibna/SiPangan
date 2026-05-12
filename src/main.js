@@ -15,7 +15,6 @@ export const store = { data: {}, maps: {}, charts: {}, year: 2025 };
 // ── Color Config ──
 export const CLUSTER_COLORS = {
   "Kerawanan Tinggi": "#d73027",
-  "Kerawanan Moderat": "#fc8d59",
   "Transisi": "#fee08b",
   "Ketergantungan Pangan": "#4575b4",
   "Ketahanan Moderat": "#a6d96a",

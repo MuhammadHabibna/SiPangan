@@ -15,8 +15,8 @@
     "Akses_Air_Layak":88.79,
     "Akses_Listrik":99.87,
     "IKP":71.63,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"SUMATERA UTARA",
@@ -34,7 +34,7 @@
     "Akses_Air_Layak":90.89,
     "Akses_Listrik":99.16,
     "IKP":72.25,
-    "Cluster":1,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
@@ -54,7 +54,7 @@
     "Akses_Listrik":98.86,
     "IKP":79.55,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"RIAU",
@@ -72,8 +72,8 @@
     "Akses_Air_Layak":89.76,
     "Akses_Listrik":98.32,
     "IKP":66.84,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "Cluster":3,
+    "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"JAMBI",
@@ -91,8 +91,8 @@
     "Akses_Air_Layak":79.7,
     "Akses_Listrik":99.03,
     "IKP":74.18,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"SUMATERA SELATAN",
@@ -111,7 +111,7 @@
     "Akses_Listrik":98.98,
     "IKP":69.55,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"BENGKULU",
@@ -129,7 +129,7 @@
     "Akses_Air_Layak":67.39,
     "Akses_Listrik":99.44,
     "IKP":70.32,
-    "Cluster":4,
+    "Cluster":5,
     "Cluster_Name":"Ketahanan Moderat"
   },
   {
@@ -149,7 +149,7 @@
     "Akses_Listrik":99.65,
     "IKP":77.96,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"KEP. BANGKA BELITUNG",
@@ -167,8 +167,8 @@
     "Akses_Air_Layak":73.4,
     "Akses_Listrik":99.75,
     "IKP":73.22,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KEP. RIAU",
@@ -224,8 +224,8 @@
     "Akses_Air_Layak":93.24,
     "Akses_Listrik":99.93,
     "IKP":77.79,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"JAWA TENGAH",
@@ -243,8 +243,8 @@
     "Akses_Air_Layak":93.62,
     "Akses_Listrik":99.96,
     "IKP":82.73,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"DI YOGYAKARTA",
@@ -262,7 +262,7 @@
     "Akses_Air_Layak":95.69,
     "Akses_Listrik":100.0,
     "IKP":81.43,
-    "Cluster":1,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
@@ -281,8 +281,8 @@
     "Akses_Air_Layak":95.02,
     "Akses_Listrik":99.93,
     "IKP":79.7,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"BANTEN",
@@ -300,7 +300,7 @@
     "Akses_Air_Layak":93.51,
     "Akses_Listrik":99.95,
     "IKP":74.38,
-    "Cluster":1,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
@@ -319,7 +319,7 @@
     "Akses_Air_Layak":97.56,
     "Akses_Listrik":99.91,
     "IKP":83.82,
-    "Cluster":1,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
@@ -338,8 +338,8 @@
     "Akses_Air_Layak":94.6,
     "Akses_Listrik":99.86,
     "IKP":75.67,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"NUSA TENGGARA TIMUR",
@@ -358,7 +358,7 @@
     "Akses_Listrik":92.43,
     "IKP":67.35,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"KALIMANTAN BARAT",
@@ -376,8 +376,8 @@
     "Akses_Air_Layak":78.76,
     "Akses_Listrik":96.51,
     "IKP":71.32,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN TENGAH",
@@ -395,8 +395,8 @@
     "Akses_Air_Layak":77.05,
     "Akses_Listrik":98.75,
     "IKP":73.68,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN SELATAN",
@@ -414,8 +414,8 @@
     "Akses_Air_Layak":76.4,
     "Akses_Listrik":99.76,
     "IKP":80.29,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN TIMUR",
@@ -471,8 +471,8 @@
     "Akses_Air_Layak":91.65,
     "Akses_Listrik":99.76,
     "IKP":78.3,
-    "Cluster":1,
-    "Cluster_Name":"Ketahanan Tinggi"
+    "Cluster":3,
+    "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"SULAWESI TENGAH",
@@ -490,8 +490,8 @@
     "Akses_Air_Layak":88.51,
     "Akses_Listrik":97.85,
     "IKP":75.73,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"SULAWESI SELATAN",
@@ -509,8 +509,8 @@
     "Akses_Air_Layak":91.18,
     "Akses_Listrik":99.41,
     "IKP":80.82,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"SULAWESI TENGGARA",
@@ -528,8 +528,8 @@
     "Akses_Air_Layak":91.94,
     "Akses_Listrik":99.43,
     "IKP":76.64,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"GORONTALO",
@@ -547,8 +547,8 @@
     "Akses_Air_Layak":94.57,
     "Akses_Listrik":99.26,
     "IKP":80.52,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"SULAWESI BARAT",
@@ -567,7 +567,7 @@
     "Akses_Listrik":99.14,
     "IKP":75.49,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"MALUKU",
@@ -585,8 +585,8 @@
     "Akses_Air_Layak":93.21,
     "Akses_Listrik":96.15,
     "IKP":58.7,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"MALUKU UTARA",
@@ -604,7 +604,7 @@
     "Akses_Air_Layak":88.66,
     "Akses_Listrik":96.7,
     "IKP":59.58,
-    "Cluster":0,
+    "Cluster":2,
     "Cluster_Name":"Transisi"
   },
   {
@@ -623,8 +623,8 @@
     "Akses_Air_Layak":81.68,
     "Akses_Listrik":95.8,
     "IKP":46.05,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"PAPUA",
@@ -642,8 +642,8 @@
     "Akses_Air_Layak":64.92,
     "Akses_Listrik":79.12,
     "IKP":35.48,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"ACEH",
@@ -661,8 +661,8 @@
     "Akses_Air_Layak":89.7,
     "Akses_Listrik":99.84,
     "IKP":70.16,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"SUMATERA UTARA",
@@ -680,7 +680,7 @@
     "Akses_Air_Layak":92.13,
     "Akses_Listrik":99.49,
     "IKP":71.22,
-    "Cluster":1,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
@@ -700,7 +700,7 @@
     "Akses_Listrik":99.52,
     "IKP":79.45,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"RIAU",
@@ -737,8 +737,8 @@
     "Akses_Air_Layak":79.19,
     "Akses_Listrik":99.43,
     "IKP":69.5,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"SUMATERA SELATAN",
@@ -757,7 +757,7 @@
     "Akses_Listrik":99.56,
     "IKP":69.64,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"BENGKULU",
@@ -775,7 +775,7 @@
     "Akses_Air_Layak":73.07,
     "Akses_Listrik":99.61,
     "IKP":67.99,
-    "Cluster":4,
+    "Cluster":5,
     "Cluster_Name":"Ketahanan Moderat"
   },
   {
@@ -795,7 +795,7 @@
     "Akses_Listrik":99.77,
     "IKP":78.61,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"KEP. BANGKA BELITUNG",
@@ -813,8 +813,8 @@
     "Akses_Air_Layak":80.96,
     "Akses_Listrik":99.85,
     "IKP":71.71,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KEP. RIAU",
@@ -870,8 +870,8 @@
     "Akses_Air_Layak":93.04,
     "Akses_Listrik":99.98,
     "IKP":77.55,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"JAWA TENGAH",
@@ -889,8 +889,8 @@
     "Akses_Air_Layak":93.32,
     "Akses_Listrik":99.98,
     "IKP":82.95,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"DI YOGYAKARTA",
@@ -908,7 +908,7 @@
     "Akses_Air_Layak":96.5,
     "Akses_Listrik":99.96,
     "IKP":80.88,
-    "Cluster":1,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
@@ -927,8 +927,8 @@
     "Akses_Air_Layak":95.05,
     "Akses_Listrik":99.98,
     "IKP":79.85,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"BANTEN",
@@ -946,7 +946,7 @@
     "Akses_Air_Layak":92.71,
     "Akses_Listrik":99.8,
     "IKP":73.78,
-    "Cluster":1,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
@@ -965,7 +965,7 @@
     "Akses_Air_Layak":98.42,
     "Akses_Listrik":99.99,
     "IKP":85.19,
-    "Cluster":1,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
@@ -984,8 +984,8 @@
     "Akses_Air_Layak":95.4,
     "Akses_Listrik":99.94,
     "IKP":76.58,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"NUSA TENGGARA TIMUR",
@@ -1004,7 +1004,7 @@
     "Akses_Listrik":94.87,
     "IKP":68.42,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"KALIMANTAN BARAT",
@@ -1022,8 +1022,8 @@
     "Akses_Air_Layak":80.43,
     "Akses_Listrik":97.02,
     "IKP":70.81,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN TENGAH",
@@ -1041,8 +1041,8 @@
     "Akses_Air_Layak":77.01,
     "Akses_Listrik":98.81,
     "IKP":69.96,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN SELATAN",
@@ -1060,8 +1060,8 @@
     "Akses_Air_Layak":76.18,
     "Akses_Listrik":99.74,
     "IKP":81.05,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN TIMUR",
@@ -1117,8 +1117,8 @@
     "Akses_Air_Layak":94.15,
     "Akses_Listrik":99.7,
     "IKP":74.3,
-    "Cluster":1,
-    "Cluster_Name":"Ketahanan Tinggi"
+    "Cluster":3,
+    "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"SULAWESI TENGAH",
@@ -1136,8 +1136,8 @@
     "Akses_Air_Layak":86.74,
     "Akses_Listrik":98.85,
     "IKP":75.92,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"SULAWESI SELATAN",
@@ -1155,8 +1155,8 @@
     "Akses_Air_Layak":91.96,
     "Akses_Listrik":99.64,
     "IKP":81.38,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"SULAWESI TENGGARA",
@@ -1174,8 +1174,8 @@
     "Akses_Air_Layak":94.64,
     "Akses_Listrik":99.7,
     "IKP":75.04,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"GORONTALO",
@@ -1193,8 +1193,8 @@
     "Akses_Air_Layak":96.16,
     "Akses_Listrik":99.15,
     "IKP":80.35,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"SULAWESI BARAT",
@@ -1213,7 +1213,7 @@
     "Akses_Listrik":99.32,
     "IKP":74.04,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"MALUKU",
@@ -1231,8 +1231,8 @@
     "Akses_Air_Layak":92.1,
     "Akses_Listrik":96.36,
     "IKP":60.2,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"MALUKU UTARA",
@@ -1250,7 +1250,7 @@
     "Akses_Air_Layak":88.1,
     "Akses_Listrik":97.24,
     "IKP":58.39,
-    "Cluster":0,
+    "Cluster":2,
     "Cluster_Name":"Transisi"
   },
   {
@@ -1269,8 +1269,8 @@
     "Akses_Air_Layak":81.57,
     "Akses_Listrik":95.49,
     "IKP":45.92,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"PAPUA",
@@ -1288,8 +1288,8 @@
     "Akses_Air_Layak":65.39,
     "Akses_Listrik":79.96,
     "IKP":37.8,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"ACEH",
@@ -1307,8 +1307,8 @@
     "Akses_Air_Layak":89.74,
     "Akses_Listrik":99.86,
     "IKP":72.96,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"SUMATERA UTARA",
@@ -1326,7 +1326,7 @@
     "Akses_Air_Layak":92.19,
     "Akses_Listrik":99.52,
     "IKP":75.97,
-    "Cluster":1,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
@@ -1346,7 +1346,7 @@
     "Akses_Listrik":99.53,
     "IKP":83.22,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"RIAU",
@@ -1383,8 +1383,8 @@
     "Akses_Air_Layak":80.02,
     "Akses_Listrik":99.44,
     "IKP":72.17,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"SUMATERA SELATAN",
@@ -1403,7 +1403,7 @@
     "Akses_Listrik":99.71,
     "IKP":73.82,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"BENGKULU",
@@ -1421,7 +1421,7 @@
     "Akses_Air_Layak":73.08,
     "Akses_Listrik":99.69,
     "IKP":72.27,
-    "Cluster":4,
+    "Cluster":5,
     "Cluster_Name":"Ketahanan Moderat"
   },
   {
@@ -1441,7 +1441,7 @@
     "Akses_Listrik":99.77,
     "IKP":81.56,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"KEP. BANGKA BELITUNG",
@@ -1459,8 +1459,8 @@
     "Akses_Air_Layak":81.64,
     "Akses_Listrik":99.93,
     "IKP":71.14,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KEP. RIAU",
@@ -1516,8 +1516,8 @@
     "Akses_Air_Layak":93.86,
     "Akses_Listrik":99.98,
     "IKP":82.19,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"JAWA TENGAH",
@@ -1535,8 +1535,8 @@
     "Akses_Air_Layak":93.76,
     "Akses_Listrik":99.99,
     "IKP":84.8,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"DI YOGYAKARTA",
@@ -1554,7 +1554,7 @@
     "Akses_Air_Layak":96.69,
     "Akses_Listrik":100.0,
     "IKP":83.17,
-    "Cluster":1,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
@@ -1573,8 +1573,8 @@
     "Akses_Air_Layak":96.01,
     "Akses_Listrik":99.98,
     "IKP":82.46,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"BANTEN",
@@ -1592,7 +1592,7 @@
     "Akses_Air_Layak":92.95,
     "Akses_Listrik":99.79,
     "IKP":78.71,
-    "Cluster":1,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
@@ -1611,7 +1611,7 @@
     "Akses_Air_Layak":98.31,
     "Akses_Listrik":99.9,
     "IKP":87.65,
-    "Cluster":1,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
@@ -1630,8 +1630,8 @@
     "Akses_Air_Layak":96.03,
     "Akses_Listrik":99.88,
     "IKP":76.51,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"NUSA TENGGARA TIMUR",
@@ -1650,7 +1650,7 @@
     "Akses_Listrik":95.04,
     "IKP":71.25,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"KALIMANTAN BARAT",
@@ -1668,8 +1668,8 @@
     "Akses_Air_Layak":82.08,
     "Akses_Listrik":97.98,
     "IKP":72.2,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN TENGAH",
@@ -1687,8 +1687,8 @@
     "Akses_Air_Layak":77.72,
     "Akses_Listrik":98.91,
     "IKP":68.9,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN SELATAN",
@@ -1706,8 +1706,8 @@
     "Akses_Air_Layak":76.29,
     "Akses_Listrik":99.92,
     "IKP":81.26,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN TIMUR",
@@ -1763,8 +1763,8 @@
     "Akses_Air_Layak":94.37,
     "Akses_Listrik":99.75,
     "IKP":77.32,
-    "Cluster":1,
-    "Cluster_Name":"Ketahanan Tinggi"
+    "Cluster":3,
+    "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"SULAWESI TENGAH",
@@ -1782,8 +1782,8 @@
     "Akses_Air_Layak":86.85,
     "Akses_Listrik":98.99,
     "IKP":75.83,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"SULAWESI SELATAN",
@@ -1801,8 +1801,8 @@
     "Akses_Air_Layak":92.12,
     "Akses_Listrik":99.66,
     "IKP":83.36,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"SULAWESI TENGGARA",
@@ -1820,8 +1820,8 @@
     "Akses_Air_Layak":94.8,
     "Akses_Listrik":99.78,
     "IKP":74.96,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"GORONTALO",
@@ -1839,8 +1839,8 @@
     "Akses_Air_Layak":96.0,
     "Akses_Listrik":99.26,
     "IKP":81.63,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"SULAWESI BARAT",
@@ -1859,7 +1859,7 @@
     "Akses_Listrik":99.42,
     "IKP":73.03,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"MALUKU",
@@ -1877,8 +1877,8 @@
     "Akses_Air_Layak":92.98,
     "Akses_Listrik":96.44,
     "IKP":64.37,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"MALUKU UTARA",
@@ -1896,7 +1896,7 @@
     "Akses_Air_Layak":89.01,
     "Akses_Listrik":97.32,
     "IKP":62.34,
-    "Cluster":0,
+    "Cluster":2,
     "Cluster_Name":"Transisi"
   },
   {
@@ -1915,8 +1915,8 @@
     "Akses_Air_Layak":81.57,
     "Akses_Listrik":95.5,
     "IKP":47.95,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"PAPUA",
@@ -1934,8 +1934,8 @@
     "Akses_Air_Layak":66.49,
     "Akses_Listrik":77.43,
     "IKP":42.27,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"ACEH",
@@ -1953,8 +1953,8 @@
     "Akses_Air_Layak":90.08,
     "Akses_Listrik":99.86,
     "IKP":67.9,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"SUMATERA UTARA",
@@ -1972,7 +1972,7 @@
     "Akses_Air_Layak":92.94,
     "Akses_Listrik":99.73,
     "IKP":71.45,
-    "Cluster":1,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
@@ -1992,7 +1992,7 @@
     "Akses_Listrik":99.39,
     "IKP":76.0,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"RIAU",
@@ -2029,8 +2029,8 @@
     "Akses_Air_Layak":82.16,
     "Akses_Listrik":99.58,
     "IKP":74.25,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"SUMATERA SELATAN",
@@ -2049,7 +2049,7 @@
     "Akses_Listrik":99.61,
     "IKP":76.3,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"BENGKULU",
@@ -2067,7 +2067,7 @@
     "Akses_Air_Layak":72.1,
     "Akses_Listrik":99.88,
     "IKP":65.89,
-    "Cluster":4,
+    "Cluster":5,
     "Cluster_Name":"Ketahanan Moderat"
   },
   {
@@ -2087,7 +2087,7 @@
     "Akses_Listrik":99.94,
     "IKP":71.91,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"KEP. BANGKA BELITUNG",
@@ -2105,8 +2105,8 @@
     "Akses_Air_Layak":82.97,
     "Akses_Listrik":99.87,
     "IKP":76.41,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KEP. RIAU",
@@ -2162,8 +2162,8 @@
     "Akses_Air_Layak":94.9,
     "Akses_Listrik":99.99,
     "IKP":72.31,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"JAWA TENGAH",
@@ -2181,8 +2181,8 @@
     "Akses_Air_Layak":95.43,
     "Akses_Listrik":99.99,
     "IKP":70.78,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"DI YOGYAKARTA",
@@ -2200,7 +2200,7 @@
     "Akses_Air_Layak":96.91,
     "Akses_Listrik":100.0,
     "IKP":75.69,
-    "Cluster":1,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
@@ -2219,8 +2219,8 @@
     "Akses_Air_Layak":96.93,
     "Akses_Listrik":100.0,
     "IKP":71.04,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"BANTEN",
@@ -2238,7 +2238,7 @@
     "Akses_Air_Layak":94.01,
     "Akses_Listrik":99.84,
     "IKP":76.97,
-    "Cluster":1,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
@@ -2257,7 +2257,7 @@
     "Akses_Air_Layak":98.32,
     "Akses_Listrik":99.96,
     "IKP":77.02,
-    "Cluster":1,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
@@ -2277,7 +2277,7 @@
     "Akses_Listrik":99.98,
     "IKP":75.49,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"NUSA TENGGARA TIMUR",
@@ -2296,7 +2296,7 @@
     "Akses_Listrik":96.82,
     "IKP":56.27,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"KALIMANTAN BARAT",
@@ -2314,8 +2314,8 @@
     "Akses_Air_Layak":82.13,
     "Akses_Listrik":99.08,
     "IKP":69.26,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN TENGAH",
@@ -2333,8 +2333,8 @@
     "Akses_Air_Layak":78.71,
     "Akses_Listrik":99.26,
     "IKP":72.5,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN SELATAN",
@@ -2352,8 +2352,8 @@
     "Akses_Air_Layak":77.34,
     "Akses_Listrik":99.92,
     "IKP":77.62,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN TIMUR",
@@ -2409,8 +2409,8 @@
     "Akses_Air_Layak":94.46,
     "Akses_Listrik":99.87,
     "IKP":72.97,
-    "Cluster":1,
-    "Cluster_Name":"Ketahanan Tinggi"
+    "Cluster":3,
+    "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"SULAWESI TENGAH",
@@ -2428,8 +2428,8 @@
     "Akses_Air_Layak":87.86,
     "Akses_Listrik":99.27,
     "IKP":66.92,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"SULAWESI SELATAN",
@@ -2447,8 +2447,8 @@
     "Akses_Air_Layak":92.23,
     "Akses_Listrik":99.73,
     "IKP":72.0,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"SULAWESI TENGGARA",
@@ -2466,8 +2466,8 @@
     "Akses_Air_Layak":95.31,
     "Akses_Listrik":99.89,
     "IKP":65.7,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"GORONTALO",
@@ -2485,8 +2485,8 @@
     "Akses_Air_Layak":96.13,
     "Akses_Listrik":99.7,
     "IKP":67.95,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"SULAWESI BARAT",
@@ -2505,7 +2505,7 @@
     "Akses_Listrik":99.61,
     "IKP":65.7,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"MALUKU",
@@ -2523,8 +2523,8 @@
     "Akses_Air_Layak":93.32,
     "Akses_Listrik":97.25,
     "IKP":57.36,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"MALUKU UTARA",
@@ -2561,8 +2561,8 @@
     "Akses_Air_Layak":82.38,
     "Akses_Listrik":96.3,
     "IKP":56.95,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"PAPUA BARAT DAYA",
@@ -2580,8 +2580,8 @@
     "Akses_Air_Layak":81.68,
     "Akses_Listrik":98.05,
     "IKP":54.52,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"PAPUA",
@@ -2599,8 +2599,8 @@
     "Akses_Air_Layak":85.84,
     "Akses_Listrik":96.06,
     "IKP":57.39,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"PAPUA SELATAN",
@@ -2618,8 +2618,8 @@
     "Akses_Air_Layak":71.9,
     "Akses_Listrik":80.61,
     "IKP":51.87,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"PAPUA TENGAH",
@@ -2637,7 +2637,7 @@
     "Akses_Air_Layak":81.53,
     "Akses_Listrik":56.08,
     "IKP":43.91,
-    "Cluster":5,
+    "Cluster":4,
     "Cluster_Name":"Kerawanan Tinggi"
   },
   {
@@ -2656,7 +2656,7 @@
     "Akses_Air_Layak":30.64,
     "Akses_Listrik":73.66,
     "IKP":34.56,
-    "Cluster":5,
+    "Cluster":4,
     "Cluster_Name":"Kerawanan Tinggi"
   },
   {
@@ -2675,8 +2675,8 @@
     "Akses_Air_Layak":92.06,
     "Akses_Listrik":99.97,
     "IKP":70.0,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"SUMATERA UTARA",
@@ -2694,7 +2694,7 @@
     "Akses_Air_Layak":93.24,
     "Akses_Listrik":99.72,
     "IKP":71.47,
-    "Cluster":1,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
@@ -2714,7 +2714,7 @@
     "Akses_Listrik":99.47,
     "IKP":77.72,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"RIAU",
@@ -2751,8 +2751,8 @@
     "Akses_Air_Layak":82.46,
     "Akses_Listrik":99.68,
     "IKP":76.16,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"SUMATERA SELATAN",
@@ -2771,7 +2771,7 @@
     "Akses_Listrik":99.77,
     "IKP":79.31,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"BENGKULU",
@@ -2789,7 +2789,7 @@
     "Akses_Air_Layak":70.47,
     "Akses_Listrik":99.99,
     "IKP":69.89,
-    "Cluster":4,
+    "Cluster":5,
     "Cluster_Name":"Ketahanan Moderat"
   },
   {
@@ -2809,7 +2809,7 @@
     "Akses_Listrik":99.96,
     "IKP":73.06,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"KEP. BANGKA BELITUNG",
@@ -2827,8 +2827,8 @@
     "Akses_Air_Layak":83.54,
     "Akses_Listrik":99.93,
     "IKP":78.2,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KEP. RIAU",
@@ -2884,8 +2884,8 @@
     "Akses_Air_Layak":95.84,
     "Akses_Listrik":100.0,
     "IKP":74.95,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"JAWA TENGAH",
@@ -2903,8 +2903,8 @@
     "Akses_Air_Layak":95.73,
     "Akses_Listrik":100.0,
     "IKP":73.73,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"DI YOGYAKARTA",
@@ -2922,7 +2922,7 @@
     "Akses_Air_Layak":97.33,
     "Akses_Listrik":100.0,
     "IKP":77.44,
-    "Cluster":1,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
@@ -2941,8 +2941,8 @@
     "Akses_Air_Layak":97.3,
     "Akses_Listrik":99.99,
     "IKP":72.67,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"BANTEN",
@@ -2960,7 +2960,7 @@
     "Akses_Air_Layak":96.03,
     "Akses_Listrik":99.86,
     "IKP":77.78,
-    "Cluster":1,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
@@ -2979,7 +2979,7 @@
     "Akses_Air_Layak":98.75,
     "Akses_Listrik":99.98,
     "IKP":79.89,
-    "Cluster":1,
+    "Cluster":0,
     "Cluster_Name":"Ketahanan Tinggi"
   },
   {
@@ -2999,7 +2999,7 @@
     "Akses_Listrik":99.99,
     "IKP":74.7,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"NUSA TENGGARA TIMUR",
@@ -3018,7 +3018,7 @@
     "Akses_Listrik":98.06,
     "IKP":58.24,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"KALIMANTAN BARAT",
@@ -3036,8 +3036,8 @@
     "Akses_Air_Layak":84.32,
     "Akses_Listrik":99.16,
     "IKP":71.52,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN TENGAH",
@@ -3055,8 +3055,8 @@
     "Akses_Air_Layak":80.58,
     "Akses_Listrik":99.65,
     "IKP":73.62,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN SELATAN",
@@ -3074,8 +3074,8 @@
     "Akses_Air_Layak":78.27,
     "Akses_Listrik":99.86,
     "IKP":81.98,
-    "Cluster":4,
-    "Cluster_Name":"Ketahanan Moderat"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"KALIMANTAN TIMUR",
@@ -3131,8 +3131,8 @@
     "Akses_Air_Layak":94.86,
     "Akses_Listrik":99.84,
     "IKP":72.49,
-    "Cluster":1,
-    "Cluster_Name":"Ketahanan Tinggi"
+    "Cluster":3,
+    "Cluster_Name":"Ketergantungan Pangan"
   },
   {
     "Provinsi":"SULAWESI TENGAH",
@@ -3150,8 +3150,8 @@
     "Akses_Air_Layak":87.55,
     "Akses_Listrik":98.7,
     "IKP":70.4,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"SULAWESI SELATAN",
@@ -3169,8 +3169,8 @@
     "Akses_Air_Layak":93.25,
     "Akses_Listrik":99.86,
     "IKP":74.3,
-    "Cluster":2,
-    "Cluster_Name":"Lumbung Pangan Nasional"
+    "Cluster":0,
+    "Cluster_Name":"Ketahanan Tinggi"
   },
   {
     "Provinsi":"SULAWESI TENGGARA",
@@ -3188,8 +3188,8 @@
     "Akses_Air_Layak":94.91,
     "Akses_Listrik":99.94,
     "IKP":67.56,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"GORONTALO",
@@ -3207,8 +3207,8 @@
     "Akses_Air_Layak":95.95,
     "Akses_Listrik":99.67,
     "IKP":69.75,
-    "Cluster":0,
-    "Cluster_Name":"Transisi"
+    "Cluster":5,
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"SULAWESI BARAT",
@@ -3227,7 +3227,7 @@
     "Akses_Listrik":99.68,
     "IKP":67.08,
     "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster_Name":"Ketahanan Moderat"
   },
   {
     "Provinsi":"MALUKU",
@@ -3245,8 +3245,8 @@
     "Akses_Air_Layak":92.83,
     "Akses_Listrik":98.74,
     "IKP":57.18,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"MALUKU UTARA",
@@ -3283,8 +3283,8 @@
     "Akses_Air_Layak":82.95,
     "Akses_Listrik":96.59,
     "IKP":58.61,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"PAPUA BARAT DAYA",
@@ -3302,8 +3302,8 @@
     "Akses_Air_Layak":80.64,
     "Akses_Listrik":98.56,
     "IKP":57.15,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"PAPUA",
@@ -3321,8 +3321,8 @@
     "Akses_Air_Layak":87.7,
     "Akses_Listrik":96.65,
     "IKP":57.45,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster":2,
+    "Cluster_Name":"Transisi"
   },
   {
     "Provinsi":"PAPUA SELATAN",
@@ -3340,8 +3340,8 @@
     "Akses_Air_Layak":71.28,
     "Akses_Listrik":83.61,
     "IKP":53.96,
-    "Cluster":5,
-    "Cluster_Name":"Kerawanan Tinggi"
+    "Cluster":1,
+    "Cluster_Name":"Kerawanan Moderat"
   },
   {
     "Provinsi":"PAPUA TENGAH",
@@ -3359,7 +3359,7 @@
     "Akses_Air_Layak":83.21,
     "Akses_Listrik":67.46,
     "IKP":41.61,
-    "Cluster":5,
+    "Cluster":4,
     "Cluster_Name":"Kerawanan Tinggi"
   },
   {
@@ -3378,7 +3378,7 @@
     "Akses_Air_Layak":32.89,
     "Akses_Listrik":68.88,
     "IKP":31.96,
-    "Cluster":5,
+    "Cluster":4,
     "Cluster_Name":"Kerawanan Tinggi"
   }
 ]
