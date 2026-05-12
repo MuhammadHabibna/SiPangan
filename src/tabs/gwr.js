@@ -18,8 +18,7 @@ export function renderGWR(panel) {
     <div class="grid-main-side mb-lg">
       <div class="card">
         <div class="card-header flex-between">
-          <span>Peta Koefisien Lokal</span>
-          <select id="gwr-feat-sel" style="padding:4px 8px;border:1px solid var(--border);border-radius:6px;font-size:12px;font-family:inherit"></select>
+          <span>Peta Faktor Dominan</span>
         </div>
         <div class="card-body" style="padding:0"><div id="gwr-map" class="map-container" style="height:460px"></div></div>
       </div>
@@ -42,17 +41,14 @@ export function renderGWR(panel) {
     </div>
   `;
 
-  const sel = document.getElementById('gwr-feat-sel');
-  GWR_FEATURES.forEach(f => { const o = document.createElement('option'); o.value = f; o.textContent = FEAT_LABELS[f]; sel.appendChild(o); });
   const rankSel = document.getElementById('gwr-rank-sel');
   
-  sel.onchange = () => buildGWRMap(2025, sel.value, rankSel.value);
   rankSel.onchange = () => {
     buildDominantBar(2025, rankSel.value);
-    buildGWRMap(2025, sel.value, rankSel.value);
+    buildGWRMap(2025, rankSel.value);
   };
 
-  buildGWRMap(2025, GWR_FEATURES[0], 'Faktor_Dominan');
+  buildGWRMap(2025, 'Faktor_Dominan');
   buildR2Map(2025);
   buildDominantBar(2025, 'Faktor_Dominan');
 
@@ -62,33 +58,32 @@ export function renderGWR(panel) {
   document.getElementById('gwr-r2').textContent = fmt(avgR2, 3);
 }
 
-function buildGWRMap(year, feature, rankKey = 'Faktor_Dominan') {
+function buildGWRMap(year, rankKey = 'Faktor_Dominan') {
   if (store.maps.gwr) { store.maps.gwr.remove(); }
   const map = L.map('gwr-map', { scrollWheelZoom: true }).setView([-2.5, 118], 5);
   store.maps.gwr = map;
   L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', { maxZoom: 18 }).addTo(map);
 
   const yd = getYearData(store.data.gwr_result, year);
-  const key = `koef_${feature}`;
-  const vals = yd.map(d => d[key]).filter(v => v != null);
-  const absMax = Math.max(...vals.map(Math.abs), 0.01);
 
-  function getColor(v) {
-    if (v == null) return '#d9d9d9';
-    const t = v / absMax;
-    if (t > 0) return `rgba(26,152,80,${Math.abs(t)*0.8+0.2})`;
-    return `rgba(215,48,39,${Math.abs(t)*0.8+0.2})`;
+  function getColor(featName) {
+    const idx = GWR_FEATURES.indexOf(featName);
+    return idx >= 0 ? FEAT_COLORS[idx] : '#d9d9d9';
   }
 
   L.geoJSON(store.data.geojson_38, {
     style: feat => {
       const d = yd.find(x => x.Provinsi === feat.properties.DATASET_NAME);
-      return { fillColor: d ? getColor(d[key]) : '#d9d9d9', weight: 1, color: '#fff', fillOpacity: 0.85 };
+      return { fillColor: d ? getColor(d[rankKey]) : '#d9d9d9', weight: 1, color: '#fff', fillOpacity: 0.85 };
     },
     onEachFeature: (feat, layer) => {
       const d = yd.find(x => x.Provinsi === feat.properties.DATASET_NAME);
       const rankLabel = rankKey === 'Faktor_Dominan' ? 'Faktor Utama' : 'Faktor Kedua';
-      if (d) layer.bindTooltip(`<div class="prov-tooltip"><div class="tip-name">${d.Provinsi}</div><hr class="tip-divider"><div class="tip-row"><span class="label">Koef. ${FEAT_LABELS[feature]}</span><span class="value">${fmt(d[key],4)}</span></div><div class="tip-row"><span class="label">R² Lokal</span><span class="value">${fmt(d.R2_Lokal,3)}</span></div><div class="tip-row"><span class="label">${rankLabel}</span><span class="value">${FEAT_LABELS[d[rankKey]] || d[rankKey]}</span></div></div>`, { sticky: true });
+      if (d) {
+        const factorName = d[rankKey];
+        const coefVal = d[`koef_${factorName}`];
+        layer.bindTooltip(`<div class="prov-tooltip"><div class="tip-name">${d.Provinsi}</div><hr class="tip-divider"><div class="tip-row"><span class="label">${rankLabel}</span><span class="value" style="color:${getColor(factorName)};font-weight:700">${FEAT_LABELS[factorName] || factorName}</span></div><div class="tip-row"><span class="label">Koefisien</span><span class="value">${fmt(coefVal,4)}</span></div><div class="tip-row"><span class="label">R² Lokal</span><span class="value">${fmt(d.R2_Lokal,3)}</span></div></div>`, { sticky: true });
+      }
       layer.on({ mouseover: e => { e.target.setStyle({ weight: 3, color: '#1e40af' }); e.target.bringToFront(); }, mouseout: e => { layer.setStyle({ weight: 1, color: '#fff' }); } });
     }
   }).addTo(map);
@@ -105,8 +100,16 @@ function buildR2Map(year) {
     style: feat => {
       const d = yd.find(x => x.Provinsi === feat.properties.DATASET_NAME);
       const r2 = d?.R2_Lokal || 0;
-      const g = Math.round(100 + r2 * 155);
-      return { fillColor: `rgb(50,${g},100)`, weight: 0.5, color: '#fff', fillOpacity: 0.8 };
+      // Heatmap color scale: from light yellow-orange to deep red based on R2 (min~0.4, max~1.0)
+      const t = Math.max(0, Math.min(1, (r2 - 0.4) / 0.55));
+      const r = 255;
+      const g = Math.round(237 - t * 237); // 237 -> 0
+      const b = Math.round(160 - t * 160); // 160 -> 0
+      return { fillColor: `rgb(${r},${g},${b})`, weight: 0.5, color: '#fff', fillOpacity: 0.85 };
+    },
+    onEachFeature: (feat, layer) => {
+      const d = yd.find(x => x.Provinsi === feat.properties.DATASET_NAME);
+      if (d) layer.bindTooltip(`<div class="prov-tooltip"><div class="tip-name">${d.Provinsi}</div><hr class="tip-divider"><div class="tip-row"><span class="label">R² Lokal</span><span class="value">${fmt(d.R2_Lokal,3)}</span></div></div>`, { sticky: true });
     }
   }).addTo(map);
 }
