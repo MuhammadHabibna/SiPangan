@@ -64,81 +64,12 @@ print(f"  geojson_38.json ({len(geo['features'])} features)")
 with open(os.path.join(DATA, "name_map.json"), "w", encoding="utf-8") as f:
     json.dump({"to_geo": MAP, "to_dataset": REV}, f, ensure_ascii=False, indent=2)
 
-print("\n[3] Generating placeholders...")
+print("\n[3] Converting Layer 2, 3, 4 Data...")
+csv_to_json(os.path.join(OUT, "layer2", "gwr_result.csv"), "gwr_result.json")
+csv_to_json(os.path.join(OUT, "layer 4", "lisa_result.csv"), "lisa_result.json")
+csv_to_json(os.path.join(OUT, "layer 3", "forecast_result.csv"), "forecast_result.json")
 
-# --- GWR placeholder ---
-np.random.seed(42)
-provs_25 = df[df["Tahun"]==2025]["Provinsi"].tolist()
-gwr_features = ["TPT","Penduduk_Miskin","PDRB_per_Kapita","Luas_Panen_Padi","Akses_Air_Layak"]
-gwr_rows = []
-for yr in [2021,2022,2023,2024,2025]:
-    provs = df[df["Tahun"]==yr]["Provinsi"].tolist()
-    for p in provs:
-        row = {"Provinsi":p, "Tahun":yr, "R2_Lokal": round(np.random.uniform(0.5,0.95),3)}
-        dominant_idx = np.random.randint(0, len(gwr_features))
-        for i,feat in enumerate(gwr_features):
-            coef = round(np.random.normal(0, 0.5), 4)
-            if i == dominant_idx: coef = round(np.random.choice([-1,1]) * np.random.uniform(0.5,1.5), 4)
-            row[f"coef_{feat}"] = coef
-        row["Faktor_Dominan"] = gwr_features[dominant_idx]
-        gwr_rows.append(row)
-
-with open(os.path.join(DATA, "gwr_result.json"), "w", encoding="utf-8") as f:
-    json.dump(gwr_rows, f, ensure_ascii=False, indent=2)
-print(f"  gwr_result.json ({len(gwr_rows)} rows) [PLACEHOLDER]")
-
-# --- LISA placeholder ---
-quadrants = ["HH","LL","HL","LH","NS"]
-lisa_rows = []
-for yr in [2021,2022,2023,2024,2025]:
-    provs = df[df["Tahun"]==yr]["Provinsi"].tolist()
-    for p in provs:
-        sub = df[(df["Provinsi"]==p)&(df["Tahun"]==yr)]
-        ikp = sub["IKP"].values[0] if len(sub)>0 else 70
-        # Weight quadrant by IKP
-        if ikp < 65: weights = [0.1,0.5,0.1,0.1,0.2]
-        elif ikp < 73: weights = [0.15,0.25,0.15,0.15,0.3]
-        else: weights = [0.4,0.05,0.15,0.15,0.25]
-        q = np.random.choice(quadrants, p=weights)
-        lisa_rows.append({
-            "Provinsi":p,"Tahun":yr,
-            "LISA_Quadrant":q,
-            "LISA_I": round(np.random.uniform(-0.5,1.5),4),
-            "LISA_P_Value": round(np.random.uniform(0.001,0.2),4),
-            "Signifikan": q != "NS",
-            "Moran_I_Global": round(np.random.uniform(0.2,0.6),4),
-            "P_Value_Global": round(np.random.uniform(0.001,0.05),4)
-        })
-
-with open(os.path.join(DATA, "lisa_result.json"), "w", encoding="utf-8") as f:
-    json.dump(lisa_rows, f, ensure_ascii=False, indent=2)
-print(f"  lisa_result.json ({len(lisa_rows)} rows) [PLACEHOLDER]")
-
-# --- Forecast placeholder ---
-forecast_rows = []
-for p in provs_25:
-    sub = df[df["Provinsi"]==p].sort_values("Tahun")
-    ikps = sub["IKP"].values
-    if len(ikps) >= 2:
-        trend = (ikps[-1] - ikps[0]) / max(len(ikps)-1, 1)
-    else:
-        trend = 0
-    last_ikp = ikps[-1] if len(ikps)>0 else 70
-    for yr_pred in [2026, 2027]:
-        pred = last_ikp + trend * (yr_pred - 2025) + np.random.normal(0, 1)
-        ci_w = np.random.uniform(3, 6)
-        delta = pred - last_ikp
-        tren = "Membaik" if delta > 2 else ("Memburuk" if delta < -2 else "Stagnan")
-        forecast_rows.append({
-            "Provinsi":p, "Tahun_Pred":yr_pred,
-            "IKP_Pred": round(pred,2), "CI_Lower": round(pred-ci_w,2), "CI_Upper": round(pred+ci_w,2),
-            "Tren":tren, "W_XGB": round(np.random.uniform(0.2,0.5),3),
-            "W_RF": round(np.random.uniform(0.2,0.4),3), "W_EN": round(np.random.uniform(0.1,0.3),3)
-        })
-
-with open(os.path.join(DATA, "forecast_result.json"), "w", encoding="utf-8") as f:
-    json.dump(forecast_rows, f, ensure_ascii=False, indent=2)
-print(f"  forecast_result.json ({len(forecast_rows)} rows) [PLACEHOLDER]")
+print("\n[4] Generating placeholders for Priority Score...")
 
 # --- Priority Score placeholder ---
 priority_rows = []
