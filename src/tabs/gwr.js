@@ -112,6 +112,27 @@ function buildR2Map(year) {
       if (d) layer.bindTooltip(`<div class="prov-tooltip"><div class="tip-name">${d.Provinsi}</div><hr class="tip-divider"><div class="tip-row"><span class="label">R² Lokal</span><span class="value">${fmt(d.R2_Lokal,3)}</span></div></div>`, { sticky: true });
     }
   }).addTo(map);
+
+  const legend = L.control({ position: 'bottomright' });
+  legend.onAdd = function() {
+    const div = L.DomUtil.create('div', 'info legend');
+    div.style.background = 'rgba(255, 255, 255, 0.9)';
+    div.style.padding = '6px 10px';
+    div.style.borderRadius = '6px';
+    div.style.boxShadow = '0 1px 3px rgba(0,0,0,0.2)';
+    div.style.fontSize = '11px';
+    div.style.fontFamily = 'Inter, sans-serif';
+    div.innerHTML = `
+      <div style="margin-bottom:6px;font-weight:600;color:var(--text-main)">R² Lokal</div>
+      <div style="display:flex;align-items:center;gap:6px;color:var(--text-muted)">
+        <span>0.4</span>
+        <div style="width:100px;height:8px;background:linear-gradient(to right, rgb(255,237,160), rgb(255,118,80), rgb(255,0,0));border-radius:4px;"></div>
+        <span>1.0</span>
+      </div>
+    `;
+    return div;
+  };
+  legend.addTo(map);
 }
 
 function buildDominantBar(year, rankKey = 'Faktor_Dominan') {
