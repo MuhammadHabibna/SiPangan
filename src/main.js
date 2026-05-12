@@ -41,7 +41,7 @@ async function loadAllData() {
   const files = [
     'cluster_result.json', 'cluster_profiles.json', 'cluster_transitions.json',
     'umap_coords.json', 'df_labeled.json', 'geojson_38.json', 'name_map.json',
-    'gwr_result.json', 'lisa_result.json', 'forecast_result.json', 'priority_score.json',
+    'gwr_result.json', 'lisa_result.json', 'forecast_result.json',
     'cluster_evaluation.json'
   ];
   const results = await Promise.all(files.map(f => loadJSON(f)));

@@ -1,7 +1,7 @@
 import { store, fmt, animateValue, clusterColor, makeTooltipHTML, createYearSelector, getYearData, getProvData, CLUSTER_COLORS } from '../main.js';
 
 export function renderOverview(panel) {
-  const { df_labeled, cluster_result, geojson_38, priority_score } = store.data;
+  const { df_labeled, cluster_result, geojson_38 } = store.data;
   const year = store.year;
   const yearData = getYearData(df_labeled, year);
   const avgIKP = yearData.reduce((s, d) => s + d.IKP, 0) / yearData.length;

@@ -69,34 +69,5 @@ csv_to_json(os.path.join(OUT, "layer2", "gwr_result.csv"), "gwr_result.json")
 csv_to_json(os.path.join(OUT, "layer 4", "lisa_result.csv"), "lisa_result.json")
 csv_to_json(os.path.join(OUT, "layer 3", "forecast_result.csv"), "forecast_result.json")
 
-print("\n[4] Generating placeholders for Priority Score...")
-
-# --- Priority Score placeholder ---
-priority_rows = []
-for yr in [2021,2022,2023,2024,2025]:
-    provs = df[df["Tahun"]==yr]["Provinsi"].tolist()
-    for p in provs:
-        sub = df[(df["Provinsi"]==p)&(df["Tahun"]==yr)]
-        ikp = sub["IKP"].values[0] if len(sub)>0 else 70
-        cluster_risk = round(max(0, min(1, (80 - ikp) / 50)), 3)
-        lisa_risk = round(np.random.uniform(0, 1), 3)
-        forecast_risk = round(np.random.uniform(0, 1), 3)
-        ps = round(0.4*cluster_risk + 0.3*lisa_risk + 0.3*forecast_risk, 3)
-        priority_rows.append({
-            "Provinsi":p, "Tahun":yr,
-            "cluster_risk":cluster_risk, "lisa_risk":lisa_risk, "forecast_risk":forecast_risk,
-            "Priority_Score":ps
-        })
-
-# Rank per year
-for yr in [2021,2022,2023,2024,2025]:
-    yr_rows = [r for r in priority_rows if r["Tahun"]==yr]
-    yr_rows.sort(key=lambda x: x["Priority_Score"], reverse=True)
-    for i,r in enumerate(yr_rows):
-        r["Ranking"] = i+1
-
-with open(os.path.join(DATA, "priority_score.json"), "w", encoding="utf-8") as f:
-    json.dump(priority_rows, f, ensure_ascii=False, indent=2)
-print(f"  priority_score.json ({len(priority_rows)} rows) [PLACEHOLDER]")
-
 print("\n=== Done! All data in public/data/ ===")
+
