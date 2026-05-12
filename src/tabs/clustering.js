@@ -3,7 +3,7 @@ import { store, fmt, clusterColor, makeTooltipHTML, createYearSelector, getYearD
 export function renderClustering(panel) {
   panel.innerHTML = `
     <div class="flex-between mb-md">
-      <h2 class="section-title">🔬 Clustering — UMAP + GMM (k=6)</h2>
+      <h2 class="section-title">🔬 Clustering — PCA + UMAP + GMM Hybrid (k=6)</h2>
       <div id="cl-year-sel"></div>
     </div>
     <div class="grid-2 mb-lg">

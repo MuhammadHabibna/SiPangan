@@ -9,10 +9,10 @@ export function renderAbout(panel) {
       <div class="card-body">
         <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;text-align:center">
           ${[
-            { icon: '🔬', title: 'Layer 1', sub: 'Clustering', desc: 'UMAP + GMM', color: '#3b82f6', status: '✅ Selesai' },
-            { icon: '🗺️', title: 'Layer 2', sub: 'GWR', desc: 'Geographically Weighted Regression', color: '#10b981', status: '🔄 Proses' },
-            { icon: '🎯', title: 'Layer 3', sub: 'LISA', desc: "Moran's I + Local Indicators", color: '#f59e0b', status: '🔄 Proses' },
-            { icon: '📈', title: 'Layer 4', sub: 'Forecasting', desc: 'Ensemble (XGB + RF + EN)', color: '#ef4444', status: '🔄 Proses' },
+            { icon: '🔬', title: 'Layer 1', sub: 'Clustering', desc: 'PCA + UMAP + GMM Hybrid', color: '#3b82f6', status: '✅ Selesai' },
+            { icon: '🗺️', title: 'Layer 2', sub: 'GWR', desc: 'Geographically Weighted Regression', color: '#10b981', status: '✅ Selesai' },
+            { icon: '📈', title: 'Layer 3', sub: 'Forecasting', desc: 'Ensemble (XGBoost + RF)', color: '#f59e0b', status: '✅ Selesai' },
+            { icon: '🎯', title: 'Layer 4', sub: 'LISA', desc: "Moran's I + Local Indicators", color: '#ef4444', status: '✅ Selesai' },
           ].map(l => `
             <div style="background:${l.color}08;border:2px solid ${l.color}30;border-radius:var(--radius);padding:20px;transition:transform var(--transition)" onmouseover="this.style.transform='translateY(-4px)'" onmouseout="this.style.transform='none'">
               <div style="font-size:32px;margin-bottom:8px">${l.icon}</div>

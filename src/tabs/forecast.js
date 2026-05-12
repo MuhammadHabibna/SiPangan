@@ -11,7 +11,7 @@ export function renderForecast(panel) {
     </div>
 
     <div class="stats-grid mb-md">
-      <div class="stat-card" style="--stat-color:#3b82f6"><div class="stat-label">Model</div><div class="stat-value" style="font-size:18px">Ensemble</div><div class="stat-sub">XGBoost + RF + Elastic Net</div></div>
+      <div class="stat-card" style="--stat-color:#3b82f6"><div class="stat-label">Model</div><div class="stat-value" style="font-size:18px">Ensemble</div><div class="stat-sub">XGBoost + Random Forest (50:50)</div></div>
       <div class="stat-card" style="--stat-color:#10b981"><div class="stat-label">Horizon</div><div class="stat-value">2 Tahun</div><div class="stat-sub">2026 & 2027</div></div>
       <div class="stat-card" style="--stat-color:#f59e0b"><div class="stat-label">Tren Terpilih</div><div class="stat-value" id="fc-trend">—</div><div class="stat-sub" id="fc-trend-sub"></div></div>
     </div>
@@ -89,7 +89,7 @@ function buildForecastCharts(prov) {
   if (pred1) {
     const pieEl = document.getElementById('fc-pie');
     store.charts.fcPie = pieEl;
-    Plotly.newPlot(pieEl, [{ values: [pred1.W_XGB, pred1.W_RF, pred1.W_EN], labels: ['XGBoost','Random Forest','Elastic Net'], type: 'pie', marker: { colors: ['#3b82f6','#10b981','#f59e0b'] }, textinfo: 'label+percent', hole: 0.4 }], { font: { family: 'Inter', size: 10 }, margin: { l: 10, r: 10, t: 10, b: 10 }, showlegend: false }, { responsive: true, displayModeBar: false });
+    Plotly.newPlot(pieEl, [{ values: [pred1.W_XGB || 0.5, pred1.W_RF || 0.5], labels: ['XGBoost','Random Forest'], type: 'pie', marker: { colors: ['#3b82f6','#10b981'] }, textinfo: 'label+percent', hole: 0.4 }], { font: { family: 'Inter', size: 10 }, margin: { l: 10, r: 10, t: 10, b: 10 }, showlegend: false }, { responsive: true, displayModeBar: false });
 
     document.getElementById('fc-trend').textContent = pred1.Tren;
     document.getElementById('fc-trend').style.color = pred1.Tren === 'Membaik' ? '#10b981' : pred1.Tren === 'Memburuk' ? '#ef4444' : '#f59e0b';

@@ -1,8 +1,8 @@
 import { store, fmt, clusterColor, createYearSelector, getYearData, makeTooltipHTML } from '../main.js';
 
-const GWR_FEATURES = ['TPT','Penduduk_Miskin','PDRB_per_Kapita','Luas_Panen_Padi','Akses_Air_Layak'];
-const FEAT_LABELS = { TPT:'Pengangguran', Penduduk_Miskin:'Kemiskinan', PDRB_per_Kapita:'PDRB/Kapita', Luas_Panen_Padi:'Luas Panen', Akses_Air_Layak:'Akses Air' };
-const FEAT_COLORS = ['#3b82f6','#ef4444','#f59e0b','#10b981','#8b5cf6'];
+const GWR_FEATURES = ['Penduduk_Miskin', 'Akses_Air_Layak', 'Luas_Panen_Padi', 'PDRB_per_Kapita'];
+const FEAT_LABELS = { Penduduk_Miskin:'Kemiskinan', Akses_Air_Layak:'Akses Air', Luas_Panen_Padi:'Luas Panen', PDRB_per_Kapita:'PDRB/Kapita' };
+const FEAT_COLORS = ['#ef4444', '#6366f1', '#06b6d4', '#10b981'];
 
 export function renderGWR(panel) {
   panel.innerHTML = `
@@ -10,7 +10,6 @@ export function renderGWR(panel) {
       <h2 class="section-title">🗺️ GWR Explorer — Geographically Weighted Regression</h2>
       <div id="gwr-year-sel"></div>
     </div>
-    <div class="placeholder-banner">⚠️ Data GWR menggunakan <strong>placeholder</strong> — akan diperbarui setelah Layer 2 selesai diproses oleh Noel.</div>
     <div class="stats-grid mb-md">
       <div class="stat-card" style="--stat-color:#3b82f6"><div class="stat-label">Global R²</div><div class="stat-value" id="gwr-r2">0</div><div class="stat-sub">GWR vs OLS</div></div>
       <div class="stat-card" style="--stat-color:#10b981"><div class="stat-label">Variabel Independen</div><div class="stat-value">${GWR_FEATURES.length}</div><div class="stat-sub">Fitur prediktor IKP</div></div>
@@ -59,7 +58,7 @@ function buildGWRMap(year, feature) {
   L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', { maxZoom: 18 }).addTo(map);
 
   const yd = getYearData(store.data.gwr_result, year);
-  const key = `coef_${feature}`;
+  const key = `koef_${feature}`;
   const vals = yd.map(d => d[key]).filter(v => v != null);
   const absMax = Math.max(...vals.map(Math.abs), 0.01);
 
