@@ -8,7 +8,7 @@ export function renderGWR(panel) {
   panel.innerHTML = `
     <div class="flex-between mb-md">
       <h2 class="section-title">🗺️ GWR Explorer — Geographically Weighted Regression</h2>
-      <div id="gwr-year-sel"></div>
+      <div style="font-weight:600; font-size:14px; background:var(--primary-50); color:var(--primary); padding:6px 16px; border-radius:20px;">Tahun 2025</div>
     </div>
     <div class="stats-grid mb-md">
       <div class="stat-card" style="--stat-color:#3b82f6"><div class="stat-label">Global R²</div><div class="stat-value" id="gwr-r2">0</div><div class="stat-sub">GWR vs OLS</div></div>
@@ -29,29 +29,40 @@ export function renderGWR(panel) {
           <div class="card-body" style="padding:0"><div id="gwr-r2map" class="map-container" style="height:220px"></div></div>
         </div>
         <div class="card">
-          <div class="card-header">Faktor Dominan per Provinsi</div>
+          <div class="card-header flex-between">
+            <span>Faktor Dominan per Provinsi</span>
+            <select id="gwr-rank-sel" style="padding:4px 8px;border:1px solid var(--border);border-radius:6px;font-size:12px;font-family:inherit">
+              <option value="Faktor_Dominan">Faktor Utama (Ke-1)</option>
+              <option value="Faktor_Kedua">Faktor Kedua (Ke-2)</option>
+            </select>
+          </div>
           <div class="card-body"><div id="gwr-bar" style="height:220px"></div></div>
         </div>
       </div>
     </div>
   `;
 
-  createYearSelector(document.getElementById('gwr-year-sel'), () => renderGWR(panel));
   const sel = document.getElementById('gwr-feat-sel');
   GWR_FEATURES.forEach(f => { const o = document.createElement('option'); o.value = f; o.textContent = FEAT_LABELS[f]; sel.appendChild(o); });
-  sel.onchange = () => buildGWRMap(store.year, sel.value);
+  const rankSel = document.getElementById('gwr-rank-sel');
+  
+  sel.onchange = () => buildGWRMap(2025, sel.value, rankSel.value);
+  rankSel.onchange = () => {
+    buildDominantBar(2025, rankSel.value);
+    buildGWRMap(2025, sel.value, rankSel.value);
+  };
 
-  buildGWRMap(store.year, GWR_FEATURES[0]);
-  buildR2Map(store.year);
-  buildDominantBar(store.year);
+  buildGWRMap(2025, GWR_FEATURES[0], 'Faktor_Dominan');
+  buildR2Map(2025);
+  buildDominantBar(2025, 'Faktor_Dominan');
 
-  const yd = getYearData(store.data.gwr_result, store.year);
+  const yd = getYearData(store.data.gwr_result, 2025);
   document.getElementById('gwr-n').textContent = yd.length;
   const avgR2 = yd.reduce((s,d) => s+d.R2_Lokal,0)/yd.length;
   document.getElementById('gwr-r2').textContent = fmt(avgR2, 3);
 }
 
-function buildGWRMap(year, feature) {
+function buildGWRMap(year, feature, rankKey = 'Faktor_Dominan') {
   if (store.maps.gwr) { store.maps.gwr.remove(); }
   const map = L.map('gwr-map', { scrollWheelZoom: true }).setView([-2.5, 118], 5);
   store.maps.gwr = map;
@@ -76,7 +87,8 @@ function buildGWRMap(year, feature) {
     },
     onEachFeature: (feat, layer) => {
       const d = yd.find(x => x.Provinsi === feat.properties.DATASET_NAME);
-      if (d) layer.bindTooltip(`<div class="prov-tooltip"><div class="tip-name">${d.Provinsi}</div><hr class="tip-divider"><div class="tip-row"><span class="label">Koef. ${FEAT_LABELS[feature]}</span><span class="value">${fmt(d[key],4)}</span></div><div class="tip-row"><span class="label">R² Lokal</span><span class="value">${fmt(d.R2_Lokal,3)}</span></div><div class="tip-row"><span class="label">Faktor Dominan</span><span class="value">${d.Faktor_Dominan}</span></div></div>`, { sticky: true });
+      const rankLabel = rankKey === 'Faktor_Dominan' ? 'Faktor Utama' : 'Faktor Kedua';
+      if (d) layer.bindTooltip(`<div class="prov-tooltip"><div class="tip-name">${d.Provinsi}</div><hr class="tip-divider"><div class="tip-row"><span class="label">Koef. ${FEAT_LABELS[feature]}</span><span class="value">${fmt(d[key],4)}</span></div><div class="tip-row"><span class="label">R² Lokal</span><span class="value">${fmt(d.R2_Lokal,3)}</span></div><div class="tip-row"><span class="label">${rankLabel}</span><span class="value">${FEAT_LABELS[d[rankKey]] || d[rankKey]}</span></div></div>`, { sticky: true });
       layer.on({ mouseover: e => { e.target.setStyle({ weight: 3, color: '#1e40af' }); e.target.bringToFront(); }, mouseout: e => { layer.setStyle({ weight: 1, color: '#fff' }); } });
     }
   }).addTo(map);
@@ -99,11 +111,11 @@ function buildR2Map(year) {
   }).addTo(map);
 }
 
-function buildDominantBar(year) {
+function buildDominantBar(year, rankKey = 'Faktor_Dominan') {
   const yd = getYearData(store.data.gwr_result, year);
   const counts = {};
   GWR_FEATURES.forEach(f => counts[f] = 0);
-  yd.forEach(d => { if (counts[d.Faktor_Dominan] !== undefined) counts[d.Faktor_Dominan]++; });
+  yd.forEach(d => { if (counts[d[rankKey]] !== undefined) counts[d[rankKey]]++; });
 
   const el = document.getElementById('gwr-bar');
   store.charts.gwrBar = el;
