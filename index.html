@@ -64,6 +64,38 @@
     </main>
   </div>
 
+  <!-- AI Chat Widget -->
+  <div id="ai-chat-widget" class="ai-widget-closed">
+    <button id="ai-fab" class="ai-fab" aria-label="Tanya SIPANGAN AI">
+      <span class="ai-fab-icon">✨</span>
+    </button>
+    <div id="ai-chat-panel" class="ai-panel">
+      <div class="ai-header">
+        <div class="ai-header-title">
+          <span class="ai-icon">✨</span>
+          <div>
+            <h3>SIPANGAN AI</h3>
+            <p>Didukung oleh Kimi K2.6</p>
+          </div>
+        </div>
+        <button id="ai-close-btn" class="ai-close">&times;</button>
+      </div>
+      <div id="ai-messages" class="ai-messages">
+        <div class="ai-msg ai-msg-system">Halo! Saya SIPANGAN AI. Ada yang ingin Anda ketahui tentang status ketahanan pangan di Indonesia?</div>
+      </div>
+      <div id="ai-suggestions" class="ai-suggestions">
+        <button class="ai-sugg-btn">Analisis Paling Rawan</button>
+        <button class="ai-sugg-btn">Faktor Dominan GWR</button>
+      </div>
+      <div class="ai-input-area">
+        <input type="text" id="ai-input" placeholder="Tanya tentang ketahanan pangan..." autocomplete="off"/>
+        <button id="ai-send-btn" class="ai-send-btn">
+          <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
   <script type="module" src="/src/main.js"></script>
 </body>
 </html>

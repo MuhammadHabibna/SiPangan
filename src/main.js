@@ -8,6 +8,7 @@ import { renderGWR } from './tabs/gwr.js';
 import { renderLISA } from './tabs/lisa.js';
 import { renderForecast } from './tabs/forecast.js';
 import { renderAbout } from './tabs/about.js';
+import { askKimi, getInitialMessages } from './ai/kimi.js';
 
 // ── Data Store ──
 export const store = { data: {}, maps: {}, charts: {}, year: 2025 };
@@ -153,6 +154,109 @@ function switchTab(tab) {
   TABS[tab](panel);
 }
 
+// ── AI Chatbot Logic ──
+let chatMessages = [];
+let isChatProcessing = false;
+
+function setupAI() {
+  const widget = document.getElementById('ai-chat-widget');
+  const fab = document.getElementById('ai-fab');
+  const closeBtn = document.getElementById('ai-close-btn');
+  const sendBtn = document.getElementById('ai-send-btn');
+  const input = document.getElementById('ai-input');
+  const msgContainer = document.getElementById('ai-messages');
+  const suggBtns = document.querySelectorAll('.ai-sugg-btn');
+
+  // Load initial prompt
+  chatMessages = getInitialMessages();
+
+  // Toggle chat
+  fab.onclick = () => {
+    widget.classList.toggle('ai-widget-closed');
+    if (!widget.classList.contains('ai-widget-closed')) {
+      input.focus();
+    }
+  };
+  closeBtn.onclick = () => widget.classList.add('ai-widget-closed');
+
+  function renderMessage(content, role) {
+    const div = document.createElement('div');
+    div.className = `ai-msg ai-msg-${role === 'user' ? 'user' : 'system'}`;
+    // Simple markdown parsing for bold and line breaks
+    const html = content
+      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+      .replace(/\n/g, '<br>');
+    div.innerHTML = html;
+    msgContainer.appendChild(div);
+    msgContainer.scrollTop = msgContainer.scrollHeight;
+    return div;
+  }
+
+  function addLoadingBubble() {
+    const div = document.createElement('div');
+    div.className = 'ai-msg-loading';
+    div.innerHTML = '<div class="ai-dot"></div><div class="ai-dot"></div><div class="ai-dot"></div>';
+    msgContainer.appendChild(div);
+    msgContainer.scrollTop = msgContainer.scrollHeight;
+    return div;
+  }
+
+  async function handleSend(text) {
+    if (!text.trim() || isChatProcessing) return;
+    
+    isChatProcessing = true;
+    input.value = '';
+    input.disabled = true;
+    sendBtn.disabled = true;
+
+    // Add user message
+    renderMessage(text, 'user');
+    chatMessages.push({ role: 'user', content: text });
+
+    const loadingDiv = addLoadingBubble();
+    let assistantMsgDiv = null;
+    let fullResponse = "";
+
+    await askKimi(chatMessages, 
+      (chunk) => {
+        if (loadingDiv.parentNode) loadingDiv.remove();
+        if (!assistantMsgDiv) {
+          assistantMsgDiv = renderMessage("", "system");
+        }
+        fullResponse += chunk;
+        assistantMsgDiv.innerHTML = fullResponse
+          .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+          .replace(/\n/g, '<br>');
+        msgContainer.scrollTop = msgContainer.scrollHeight;
+      },
+      (finalText) => {
+        if (loadingDiv.parentNode) loadingDiv.remove();
+        chatMessages.push({ role: 'assistant', content: finalText });
+        isChatProcessing = false;
+        input.disabled = false;
+        sendBtn.disabled = false;
+        input.focus();
+      },
+      (err) => {
+        if (loadingDiv.parentNode) loadingDiv.remove();
+        renderMessage(`❌ Maaf, terjadi kesalahan: ${err}`, "system");
+        isChatProcessing = false;
+        input.disabled = false;
+        sendBtn.disabled = false;
+      }
+    );
+  }
+
+  sendBtn.onclick = () => handleSend(input.value);
+  input.onkeypress = (e) => { if (e.key === 'Enter') handleSend(input.value); };
+
+  suggBtns.forEach(btn => {
+    btn.onclick = () => {
+      handleSend(btn.textContent);
+    };
+  });
+}
+
 // ── Init ──
 async function init() {
   try {
@@ -160,6 +264,7 @@ async function init() {
     document.querySelectorAll('.tab-btn').forEach(btn => {
       btn.addEventListener('click', () => switchTab(btn.dataset.tab));
     });
+    setupAI();
     switchTab('overview');
   } catch (err) {
     console.error('Failed to load data:', err);
