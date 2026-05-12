@@ -15,7 +15,7 @@ export function renderLISA(panel) {
       <h2 class="section-title">🎯 Hotspot LISA — Local Indicators of Spatial Association</h2>
       <div id="lisa-year-sel"></div>
     </div>
-    <div class="placeholder-banner">⚠️ Data LISA menggunakan <strong>placeholder</strong> — akan diperbarui setelah Layer 3 selesai diproses oleh Nazril.</div>
+
     <div class="stats-grid mb-md">
       <div class="stat-card" style="--stat-color:#3b82f6"><div class="stat-label">Moran's I Global</div><div class="stat-value">${fmt(moranI,4)}</div><div class="stat-sub">Autokorelasi spasial IKP</div></div>
       <div class="stat-card" style="--stat-color:#10b981"><div class="stat-label">P-Value</div><div class="stat-value">${fmt(pval,4)}</div><div class="stat-sub">${pval<0.05?'✅ Signifikan':'⚠️ Tidak signifikan'}</div></div>
@@ -98,7 +98,7 @@ function buildMoranScatter(year) {
   const traces = Object.keys(LISA_COLORS).map(q => {
     const pts = yd.filter(d => d.LISA_Quadrant === q);
     return {
-      x: pts.map(() => Math.random() * 2 - 0.5), y: pts.map(() => Math.random() * 2 - 0.5),
+      x: pts.map(d => d.IKP_ZScore), y: pts.map(d => d.SpatialLag_ZScore),
       text: pts.map(d => d.Provinsi), mode: 'markers', type: 'scatter',
       name: q, marker: { color: LISA_COLORS[q], size: 7, opacity: 0.7 },
       hovertemplate: '<b>%{text}</b><extra></extra>'

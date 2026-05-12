@@ -9,7 +9,7 @@ export function renderForecast(panel) {
       <h2 class="section-title">📈 Forecast — Ensemble Prediction</h2>
       <select id="fc-prov-sel" style="padding:6px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;font-family:inherit;min-width:220px"></select>
     </div>
-    <div class="placeholder-banner">⚠️ Data Forecast menggunakan <strong>placeholder</strong> — akan diperbarui setelah Layer 4 selesai diproses oleh Nazril.</div>
+
     <div class="stats-grid mb-md">
       <div class="stat-card" style="--stat-color:#3b82f6"><div class="stat-label">Model</div><div class="stat-value" style="font-size:18px">Ensemble</div><div class="stat-sub">XGBoost + RF + Elastic Net</div></div>
       <div class="stat-card" style="--stat-color:#10b981"><div class="stat-label">Horizon</div><div class="stat-value">2 Tahun</div><div class="stat-sub">2026 & 2027</div></div>
