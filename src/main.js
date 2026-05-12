@@ -187,11 +187,7 @@ function setupAI() {
   function renderMessage(content, role) {
     const div = document.createElement('div');
     div.className = `ai-msg ai-msg-${role === 'user' ? 'user' : 'system'}`;
-    // Simple markdown parsing for bold and line breaks
-    const html = content
-      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-      .replace(/\n/g, '<br>');
-    div.innerHTML = html;
+    div.innerHTML = role === 'system' && window.marked ? marked.parse(content) : content;
     msgContainer.appendChild(div);
     msgContainer.scrollTop = msgContainer.scrollHeight;
     return div;
@@ -229,9 +225,7 @@ function setupAI() {
           assistantMsgDiv = renderMessage("", "system");
         }
         fullResponse += chunk;
-        assistantMsgDiv.innerHTML = fullResponse
-          .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-          .replace(/\n/g, '<br>');
+        assistantMsgDiv.innerHTML = window.marked ? marked.parse(fullResponse) : fullResponse;
         msgContainer.scrollTop = msgContainer.scrollHeight;
       },
       (finalText) => {

@@ -319,6 +319,16 @@ body {
 .ai-msg p { margin-bottom: 8px; }
 .ai-msg p:last-child { margin-bottom: 0; }
 .ai-msg strong { font-weight: 700; }
+/* Markdown Styling inside AI messages */
+.ai-msg table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: 11px; }
+.ai-msg th, .ai-msg td { padding: 6px; border: 1px solid var(--border); text-align: left; }
+.ai-msg th { background: var(--bg); font-weight: 600; }
+.ai-msg ul, .ai-msg ol { margin: 8px 0 8px 20px; }
+.ai-msg li { margin-bottom: 4px; }
+.ai-msg code { background: rgba(0,0,0,0.05); padding: 2px 4px; border-radius: 4px; font-family: monospace; font-size: 11px; }
+.ai-msg pre { background: var(--bg); padding: 8px; border-radius: 6px; overflow-x: auto; margin: 8px 0; }
+.ai-msg pre code { background: transparent; padding: 0; }
+
 .ai-msg-system {
   background: white; border: 1px solid var(--border);
   color: var(--text); align-self: flex-start;

@@ -89,28 +89,31 @@ export async function askKimi(messages, onChunk, onComplete, onError) {
     const reader = response.body.getReader();
     const decoder = new TextDecoder("utf-8");
     let fullText = "";
+    let buffer = "";
 
     while (true) {
       const { done, value } = await reader.read();
       if (done) break;
 
-      const chunk = decoder.decode(value, { stream: true });
-      const lines = chunk.split("\n").filter(line => line.trim() !== "");
+      buffer += decoder.decode(value, { stream: true });
+      const lines = buffer.split('\n');
+      buffer = lines.pop(); // Keep incomplete line in buffer
       
       for (const line of lines) {
-        if (line === "data: [DONE]") {
-          break;
-        }
-        if (line.startsWith("data: ")) {
+        const trimmed = line.trim();
+        if (trimmed === "") continue;
+        if (trimmed === "data: [DONE]") continue;
+
+        if (trimmed.startsWith("data: ")) {
           try {
-            const parsed = JSON.parse(line.slice(6));
+            const parsed = JSON.parse(trimmed.slice(6));
             if (parsed.choices && parsed.choices[0].delta && parsed.choices[0].delta.content) {
               const text = parsed.choices[0].delta.content;
               fullText += text;
               onChunk(text);
             }
           } catch (e) {
-            console.warn("Stream parse error:", e, line);
+            console.warn("Stream parse error:", e, trimmed);
           }
         }
       }
