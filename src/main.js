@@ -170,6 +170,11 @@ function setupAI() {
   // Load initial prompt
   chatMessages = getInitialMessages();
 
+  // Auto-open on initial load for a wow factor
+  setTimeout(() => {
+    widget.classList.remove('ai-widget-closed');
+  }, 1000);
+
   // Toggle chat
   fab.onclick = () => {
     widget.classList.toggle('ai-widget-closed');
