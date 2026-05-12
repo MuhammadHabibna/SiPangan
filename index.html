@@ -57,12 +57,41 @@
       </div>
     </nav>
 
-    <main id="tab-content">
-      <div class="loading-screen" id="loading">
-        <div class="spinner"></div>
-        <p>Memuat data 38 provinsi...</p>
-      </div>
+      <!-- The content will be rendered here -->
     </main>
+  </div>
+
+  <!-- 1. Cinematic Boot Sequence -->
+  <div id="boot-sequence" class="boot-screen">
+    <div class="boot-content">
+      <div class="boot-logo">🌾 SIPANGAN SYSTEM</div>
+      <div id="boot-terminal" class="boot-terminal"></div>
+      <button id="boot-btn" class="boot-btn" style="display:none;">[ ENTER SYSTEM ]</button>
+    </div>
+  </div>
+
+  <!-- 2. Executive Briefing Modal -->
+  <div id="exec-modal" class="exec-modal-overlay hidden">
+    <div class="exec-modal">
+      <div class="exec-header">
+        <span class="exec-icon">📊</span>
+        <h2>Executive Briefing 2025</h2>
+      </div>
+      <div class="exec-body">
+        <div class="exec-alert">
+          <strong>🚨 Status Siaga:</strong> 12 Provinsi saat ini berada dalam Fase Transisi kerawanan pangan. Diperlukan intervensi segera.
+        </div>
+        <div class="exec-good">
+          <strong>🟢 Kabar Baik:</strong> Lumbung Pangan Nasional (Jawa Timur & Jawa Tengah) menunjukkan stabilitas sangat kuat (R² > 0.85).
+        </div>
+        <div class="exec-ai">
+          <strong>🤖 Proyeksi AI:</strong> Model Ensemble (XGBoost + RF + EN) memprediksi indeks ketahanan rata-rata akan membaik sebesar 1.2% pada 2027.
+        </div>
+      </div>
+      <div class="exec-footer">
+        <button id="exec-start-btn" class="exec-start-btn">Mulai Eksplorasi Data ➔</button>
+      </div>
+    </div>
   </div>
 
   <!-- AI Chat Widget -->

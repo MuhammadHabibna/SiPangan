@@ -170,11 +170,6 @@ function setupAI() {
   // Load initial prompt
   chatMessages = getInitialMessages();
 
-  // Auto-open on initial load for a wow factor
-  setTimeout(() => {
-    widget.classList.remove('ai-widget-closed');
-  }, 1000);
-
   // Toggle chat
   fab.onclick = () => {
     widget.classList.toggle('ai-widget-closed');
@@ -258,15 +253,65 @@ function setupAI() {
 
 // ── Init ──
 async function init() {
+  const bootLines = [
+    "> Mengunduh data panel 38 Provinsi... [OK]",
+    "> Menjalankan reduksi dimensi PCA + UMAP... [OK]",
+    "> Menginisiasi klastering GMM k=6... [OK]",
+    "> Memuat model Ensemble Forecasting... [OK]",
+    "> Merender visualisasi spasial GWR & LISA... [OK]",
+    "> SYSTEM READY."
+  ];
+  
+  const terminal = document.getElementById('boot-terminal');
+  const bootBtn = document.getElementById('boot-btn');
+  const bootScreen = document.getElementById('boot-sequence');
+  const execModal = document.getElementById('exec-modal');
+  const execStartBtn = document.getElementById('exec-start-btn');
+  
+  const typeLines = async () => {
+    for (let line of bootLines) {
+      const div = document.createElement('div');
+      div.className = 'boot-line';
+      div.textContent = line;
+      terminal.appendChild(div);
+      await new Promise(r => setTimeout(r, 450)); // typing delay
+    }
+  };
+
   try {
-    await loadAllData();
+    // Run typing and data loading concurrently
+    await Promise.all([
+      loadAllData(),
+      typeLines()
+    ]);
+
+    bootBtn.style.display = 'block';
+
     document.querySelectorAll('.tab-btn').forEach(btn => {
       btn.addEventListener('click', () => switchTab(btn.dataset.tab));
     });
     setupAI();
     switchTab('overview');
+
+    // Flow: Boot -> Exec Modal -> Dashboard
+    bootBtn.onclick = () => {
+      bootScreen.classList.add('hidden');
+      setTimeout(() => {
+        execModal.classList.remove('hidden');
+      }, 800);
+    };
+
+    execStartBtn.onclick = () => {
+      execModal.classList.add('hidden');
+      setTimeout(() => {
+        const widget = document.getElementById('ai-chat-widget');
+        widget.classList.remove('ai-widget-closed');
+      }, 800);
+    };
+
   } catch (err) {
     console.error('Failed to load data:', err);
+    terminal.innerHTML += `<div style="color:#ef4444;margin-top:10px;">> FATAL ERROR: ${err.message}</div>`;
     document.getElementById('tab-content').innerHTML = `
       <div class="loading-screen"><p style="color:#d73027">❌ Gagal memuat data: ${err.message}</p></div>`;
   }
