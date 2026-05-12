@@ -18,7 +18,7 @@ export function renderClustering(panel) {
     </div>
     <h3 class="section-title mb-md">📋 Profil Cluster</h3>
     <div class="cluster-grid mb-lg" id="cl-profiles"></div>
-    <div class="grid-2">
+    <div class="grid-2 mb-lg">
       <div class="card">
         <div class="card-header">Distribusi Cluster per Tahun</div>
         <div class="card-body"><div id="cl-dist-chart" style="height:340px"></div></div>
@@ -26,6 +26,28 @@ export function renderClustering(panel) {
       <div class="card">
         <div class="card-header">Evaluasi Pemilihan k</div>
         <div class="card-body"><div id="cl-eval-chart" style="height:340px"></div></div>
+      </div>
+    </div>
+    
+    <div class="card mb-lg">
+      <div class="card-header">Analisis Transisi Klaster (2021-2025)</div>
+      <div class="card-body" style="padding:0">
+        <div style="max-height: 400px; overflow-y: auto;">
+          <table style="width:100%; border-collapse:collapse; font-size:12px; text-align:left;">
+            <thead style="position:sticky; top:0; background:#f8fafc; box-shadow:0 1px 2px rgba(0,0,0,0.05); z-index:10;">
+              <tr>
+                <th style="padding:10px 16px; border-bottom:1px solid #e2e8f0; font-weight:600; color:#475569;">Provinsi</th>
+                <th style="padding:10px 16px; border-bottom:1px solid #e2e8f0; font-weight:600; color:#475569;">2021</th>
+                <th style="padding:10px 16px; border-bottom:1px solid #e2e8f0; font-weight:600; color:#475569;">2022</th>
+                <th style="padding:10px 16px; border-bottom:1px solid #e2e8f0; font-weight:600; color:#475569;">2023</th>
+                <th style="padding:10px 16px; border-bottom:1px solid #e2e8f0; font-weight:600; color:#475569;">2024</th>
+                <th style="padding:10px 16px; border-bottom:1px solid #e2e8f0; font-weight:600; color:#475569;">2025</th>
+                <th style="padding:10px 16px; border-bottom:1px solid #e2e8f0; font-weight:600; color:#475569;">Pola Transisi</th>
+              </tr>
+            </thead>
+            <tbody id="cl-trans-table"></tbody>
+          </table>
+        </div>
       </div>
     </div>
   `;
@@ -36,6 +58,48 @@ export function renderClustering(panel) {
   buildProfileCards();
   buildDistChart();
   buildEvalChart();
+  buildTransitionTable();
+}
+
+function buildTransitionTable() {
+  const { cluster_transitions } = store.data;
+  const tbody = document.getElementById('cl-trans-table');
+  
+  if (!cluster_transitions || cluster_transitions.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; padding:20px; color:#64748b;">Data transisi tidak tersedia</td></tr>';
+    return;
+  }
+  
+  const sortedData = [...cluster_transitions].sort((a, b) => {
+    if (a.Pola_Transisi !== b.Pola_Transisi) return a.Pola_Transisi.localeCompare(b.Pola_Transisi);
+    return a.Provinsi.localeCompare(b.Provinsi);
+  });
+  
+  const renderCell = (val) => {
+    if (!val) return '<td style="padding:8px 16px; border-bottom:1px solid #f1f5f9; color:#aaa">-</td>';
+    const color = clusterColor(val);
+    return `<td style="padding:8px 16px; border-bottom:1px solid #f1f5f9;"><span style="display:inline-block; padding:2px 8px; border-radius:12px; background:${color}20; border:1px solid ${color}60; color:${color}; font-size:10px; white-space:nowrap; font-weight:600;">${val}</span></td>`;
+  };
+  
+  const renderPola = (val) => {
+    let bg = '#f3f4f6', text = '#374151', border = '#e5e7eb';
+    if (val.includes('Aman') || val.includes('Membaik')) { bg = '#dcfce7'; text = '#166534'; border = '#bbf7d0'; }
+    if (val.includes('Rawan') || val.includes('Memburuk')) { bg = '#fee2e2'; text = '#991b1b'; border = '#fecaca'; }
+    if (val.includes('Moderat')) { bg = '#fef9c3'; text = '#854d0e'; border = '#fef08a'; }
+    return `<td style="padding:8px 16px; border-bottom:1px solid #f1f5f9;"><span style="padding:4px 8px; border-radius:6px; font-size:11px; font-weight:700; background:${bg}; color:${text}; border:1px solid ${border}; white-space:nowrap;">${val}</span></td>`;
+  };
+
+  tbody.innerHTML = sortedData.map((d, i) => `
+    <tr style="background:${i % 2 === 0 ? '#fff' : '#fafafa'}; transition:background 0.2s;" onmouseover="this.style.background='#f0fdf4'" onmouseout="this.style.background='${i % 2 === 0 ? '#fff' : '#fafafa'}'">
+      <td style="padding:8px 16px; border-bottom:1px solid #f1f5f9; font-weight:600; color:#1e293b;">${d.Provinsi}</td>
+      ${renderCell(d.Name_2021)}
+      ${renderCell(d.Name_2022)}
+      ${renderCell(d.Name_2023)}
+      ${renderCell(d.Name_2024)}
+      ${renderCell(d.Name_2025)}
+      ${renderPola(d.Pola_Transisi)}
+    </tr>
+  `).join('');
 }
 
 function buildClusterMap(year) {
